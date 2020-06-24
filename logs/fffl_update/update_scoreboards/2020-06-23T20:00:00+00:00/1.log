@@ -1,0 +1,51 @@
+[2020-06-23 20:17:32,215] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:32,215 DEBUG] [airflow.task.task_runner.standard_task_runner.StandardTaskRunner.base_task_runner.__init__] Planning to run as the  user
+[2020-06-23 20:17:32,215] {base_task_runner.py:61} DEBUG - Planning to run as the  user
+[2020-06-23 20:17:32,229] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: fffl_update.update_scoreboards 2020-06-23T20:00:00+00:00 [queued]>
+[2020-06-23 20:17:32,250] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: fffl_update.update_scoreboards 2020-06-23T20:00:00+00:00 [queued]>
+[2020-06-23 20:17:32,251] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-23 20:17:32,252] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-23 20:17:32,252] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-23 20:17:32,269] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): update_scoreboards> on 2020-06-23T20:00:00+00:00
+[2020-06-23 20:17:32,307] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:32,303 INFO] [airflow.task.task_runner.standard_task_runner.StandardTaskRunner.standard_task_runner._start_by_fork] Started process 23704 to run task
+[2020-06-23 20:17:32,303] {standard_task_runner.py:53} INFO - Started process 23704 to run task
+[2020-06-23 20:17:32,524] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: fffl_update.update_scoreboards 2020-06-23T20:00:00+00:00 [running]> DESKTOP-POQM5AD.localdomain
+[2020-06-23 20:17:32,553] {__init__.py:97} DEBUG - Preparing lineage inlets and outlets
+[2020-06-23 20:17:32,555] {__init__.py:133} DEBUG - inlets: [], outlets: []
+[2020-06-23 20:17:32,556] {python_operator.py:105} DEBUG - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=capeterson3@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fffl_update
+AIRFLOW_CTX_TASK_ID=update_scoreboards
+AIRFLOW_CTX_EXECUTION_DATE=2020-06-23T20:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-06-23T20:00:00+00:00
+[2020-06-23 20:17:32,561] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 1
+[2020-06-23 20:17:33,300] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 2
+[2020-06-23 20:17:34,006] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 3
+[2020-06-23 20:17:34,621] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 4
+[2020-06-23 20:17:35,333] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 5
+[2020-06-23 20:17:35,955] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 6
+[2020-06-23 20:17:36,571] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 7
+[2020-06-23 20:17:37,157] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 8
+[2020-06-23 20:17:37,194] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:37,194 DEBUG] [airflow.jobs.local_task_job.LocalTaskJob.base_job.heartbeat] [heartbeat]
+[2020-06-23 20:17:37,194] {logging_mixin.py:112} INFO - [2020-06-23 20:17:37,194] {base_job.py:200} DEBUG - [heartbeat]
+[2020-06-23 20:17:37,195] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:37,194 DEBUG] [airflow.jobs.local_task_job.LocalTaskJob.local_task_job._execute] Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.991811 s
+[2020-06-23 20:17:37,195] {logging_mixin.py:112} INFO - [2020-06-23 20:17:37,194] {local_task_job.py:124} DEBUG - Time since last heartbeat(0.01 s) < heartrate(5.0 s), sleeping for 4.991811 s
+[2020-06-23 20:17:37,655] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 9
+[2020-06-23 20:17:38,289] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 10
+[2020-06-23 20:17:38,850] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 11
+[2020-06-23 20:17:39,415] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 12
+[2020-06-23 20:17:40,157] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 13
+[2020-06-23 20:17:40,944] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 14
+[2020-06-23 20:17:41,582] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 15
+[2020-06-23 20:17:42,271] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:42,271 DEBUG] [airflow.jobs.local_task_job.LocalTaskJob.base_job.heartbeat] [heartbeat]
+[2020-06-23 20:17:42,272] {logging_mixin.py:112} INFO - [2020-06-23 20:17:42,271] {base_job.py:200} DEBUG - [heartbeat]
+[2020-06-23 20:17:42,273] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:42,273 DEBUG] [airflow.jobs.local_task_job.LocalTaskJob.local_task_job._execute] Time since last heartbeat(0.02 s) < heartrate(5.0 s), sleeping for 4.981281 s
+[2020-06-23 20:17:42,273] {logging_mixin.py:112} INFO - [2020-06-23 20:17:42,273] {local_task_job.py:124} DEBUG - Time since last heartbeat(0.02 s) < heartrate(5.0 s), sleeping for 4.981281 s
+[2020-06-23 20:17:42,298] {logging_mixin.py:112} INFO - Updating scoreboards for 2019, week 16
+[2020-06-23 20:17:42,848] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-23 20:17:42,854] {__init__.py:58} DEBUG - Backend: None, Lineage called with inlets: [], outlets: []
+[2020-06-23 20:17:42,925] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=fffl_update, task_id=update_scoreboards, execution_date=20200623T200000, start_date=20200624T031732, end_date=20200624T031742
+[2020-06-23 20:17:47,256] {logging_mixin.py:112} WARNING - [2020-06-23 20:17:47,256 INFO] [airflow.jobs.local_task_job.LocalTaskJob.local_task_job._execute] Task exited with return code 0
+[2020-06-23 20:17:47,256] {logging_mixin.py:112} INFO - [2020-06-23 20:17:47,256] {local_task_job.py:103} INFO - Task exited with return code 0
