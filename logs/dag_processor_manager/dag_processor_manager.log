@@ -4856,3 +4856,63 @@ File Path                                                    PID    Runtime     
 [2020-06-23 20:43:17,560] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:38:17.560679+00:00
 [2020-06-23 20:43:29,567] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
 [2020-06-23 20:43:29,568] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:38:29.568208+00:00
+[2020-06-23 20:43:41,574] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:43:41,575] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:38:41.575914+00:00
+[2020-06-23 20:43:46,732] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py                           0           0  0.23s           2020-06-24T03:43:43
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py                           1           0  1.15s           2020-06-24T03:43:46
+================================================================================
+[2020-06-23 20:43:53,580] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:43:53,581] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:38:53.581783+00:00
+[2020-06-23 20:44:05,598] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:44:05,600] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:39:05.600807+00:00
+[2020-06-23 20:44:17,608] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:44:17,608] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:39:17.608825+00:00
+[2020-06-23 20:44:18,784] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py                           0           0  0.24s           2020-06-24T03:44:15
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py                           1           0  1.14s           2020-06-24T03:44:18
+================================================================================
+[2020-06-23 20:44:29,619] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:44:29,622] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:39:29.622465+00:00
+[2020-06-23 20:44:41,625] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:44:41,627] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:39:41.627171+00:00
+[2020-06-23 20:44:50,794] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py                           0           0  0.25s           2020-06-24T03:44:47
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py                           1           0  1.15s           2020-06-24T03:44:50
+================================================================================
+[2020-06-23 20:44:53,637] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:44:53,638] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:39:53.638925+00:00
+[2020-06-23 20:45:05,644] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:45:05,646] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:40:05.646679+00:00
+[2020-06-23 20:45:17,651] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:45:17,653] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:40:17.653363+00:00
+[2020-06-23 20:45:22,912] {dag_processing.py:1033} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py                           0           0  0.25s           2020-06-24T03:45:19
+/mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py                           1           0  1.25s           2020-06-24T03:45:22
+================================================================================
+[2020-06-23 20:45:29,665] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:45:29,666] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:40:29.666771+00:00
+[2020-06-23 20:45:41,673] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-06-23 20:45:41,674] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-06-24 03:40:41.674496+00:00
+[2020-06-23 20:45:46,455] {dag_processing.py:804} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-23 20:45:46,467] {dag_processing.py:1382} INFO - Waiting up to 5 seconds for processes to exit...

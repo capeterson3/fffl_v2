@@ -2308,3 +2308,158 @@ sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
 [2020-06-23 20:43:39,633] {logging_mixin.py:112} INFO - [2020-06-23 20:43:39,633] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
 [2020-06-23 20:43:39,658] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
 [2020-06-23 20:43:39,764] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.144 seconds
+[2020-06-23 20:43:43,624] {scheduler_job.py:154} INFO - Started process (PID=25325) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:43,634] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:43:43,635] {logging_mixin.py:112} INFO - [2020-06-23 20:43:43,635] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:43,663] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:43,731] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.107 seconds
+[2020-06-23 20:43:47,657] {scheduler_job.py:154} INFO - Started process (PID=25327) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:47,669] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:43:47,670] {logging_mixin.py:112} INFO - [2020-06-23 20:43:47,670] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:47,696] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:47,758] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.101 seconds
+[2020-06-23 20:43:51,648] {scheduler_job.py:154} INFO - Started process (PID=25329) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:51,660] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:43:51,662] {logging_mixin.py:112} INFO - [2020-06-23 20:43:51,661] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:51,688] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:51,761] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.113 seconds
+[2020-06-23 20:43:55,664] {scheduler_job.py:154} INFO - Started process (PID=25331) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:55,679] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:43:55,680] {logging_mixin.py:112} INFO - [2020-06-23 20:43:55,680] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:55,707] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:55,778] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.114 seconds
+[2020-06-23 20:43:59,633] {scheduler_job.py:154} INFO - Started process (PID=25345) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:59,645] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:43:59,647] {logging_mixin.py:112} INFO - [2020-06-23 20:43:59,646] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:59,671] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:43:59,734] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.101 seconds
+[2020-06-23 20:44:03,654] {scheduler_job.py:154} INFO - Started process (PID=25347) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:03,666] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:03,667] {logging_mixin.py:112} INFO - [2020-06-23 20:44:03,667] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:03,695] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:03,767] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.113 seconds
+[2020-06-23 20:44:07,670] {scheduler_job.py:154} INFO - Started process (PID=25349) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:07,681] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:07,682] {logging_mixin.py:112} INFO - [2020-06-23 20:44:07,682] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:07,708] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:07,771] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.101 seconds
+[2020-06-23 20:44:11,671] {scheduler_job.py:154} INFO - Started process (PID=25353) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:11,681] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:11,682] {logging_mixin.py:112} INFO - [2020-06-23 20:44:11,682] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:11,707] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:11,763] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.092 seconds
+[2020-06-23 20:44:15,678] {scheduler_job.py:154} INFO - Started process (PID=25355) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:15,691] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:15,692] {logging_mixin.py:112} INFO - [2020-06-23 20:44:15,692] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:15,728] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:15,821] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.143 seconds
+[2020-06-23 20:44:19,706] {scheduler_job.py:154} INFO - Started process (PID=25357) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:19,719] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:19,722] {logging_mixin.py:112} INFO - [2020-06-23 20:44:19,722] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:19,753] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:19,844] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.139 seconds
+[2020-06-23 20:44:23,688] {scheduler_job.py:154} INFO - Started process (PID=25359) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:23,699] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:23,700] {logging_mixin.py:112} INFO - [2020-06-23 20:44:23,700] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:23,726] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:23,791] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.103 seconds
+[2020-06-23 20:44:27,682] {scheduler_job.py:154} INFO - Started process (PID=25371) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:27,695] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:27,696] {logging_mixin.py:112} INFO - [2020-06-23 20:44:27,696] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:27,728] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:27,816] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.134 seconds
+[2020-06-23 20:44:31,700] {scheduler_job.py:154} INFO - Started process (PID=25373) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:31,710] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:31,712] {logging_mixin.py:112} INFO - [2020-06-23 20:44:31,711] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:31,737] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:31,799] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.099 seconds
+[2020-06-23 20:44:35,695] {scheduler_job.py:154} INFO - Started process (PID=25375) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:35,709] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:35,710] {logging_mixin.py:112} INFO - [2020-06-23 20:44:35,710] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:35,742] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:35,822] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.128 seconds
+[2020-06-23 20:44:39,694] {scheduler_job.py:154} INFO - Started process (PID=25377) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:39,708] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:39,709] {logging_mixin.py:112} INFO - [2020-06-23 20:44:39,709] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:39,743] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:39,839] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.146 seconds
+[2020-06-23 20:44:43,701] {scheduler_job.py:154} INFO - Started process (PID=25391) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:43,710] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:43,712] {logging_mixin.py:112} INFO - [2020-06-23 20:44:43,711] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:43,737] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:43,807] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.107 seconds
+[2020-06-23 20:44:47,717] {scheduler_job.py:154} INFO - Started process (PID=25393) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:47,727] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:47,728] {logging_mixin.py:112} INFO - [2020-06-23 20:44:47,728] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:47,754] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:47,817] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.100 seconds
+[2020-06-23 20:44:51,710] {scheduler_job.py:154} INFO - Started process (PID=25395) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:51,722] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:51,723] {logging_mixin.py:112} INFO - [2020-06-23 20:44:51,723] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:51,749] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:51,817] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.107 seconds
+[2020-06-23 20:44:55,716] {scheduler_job.py:154} INFO - Started process (PID=25408) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:55,726] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:55,728] {logging_mixin.py:112} INFO - [2020-06-23 20:44:55,727] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:55,753] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:55,819] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.103 seconds
+[2020-06-23 20:44:59,689] {scheduler_job.py:154} INFO - Started process (PID=25438) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:59,703] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:44:59,704] {logging_mixin.py:112} INFO - [2020-06-23 20:44:59,704] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:59,731] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:44:59,809] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.120 seconds
+[2020-06-23 20:45:03,698] {scheduler_job.py:154} INFO - Started process (PID=25451) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:03,708] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:03,709] {logging_mixin.py:112} INFO - [2020-06-23 20:45:03,709] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:03,736] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:03,805] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.107 seconds
+[2020-06-23 20:45:07,713] {scheduler_job.py:154} INFO - Started process (PID=25453) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:07,723] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:07,724] {logging_mixin.py:112} INFO - [2020-06-23 20:45:07,723] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:07,749] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:07,809] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.096 seconds
+[2020-06-23 20:45:11,729] {scheduler_job.py:154} INFO - Started process (PID=25455) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:11,741] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:11,742] {logging_mixin.py:112} INFO - [2020-06-23 20:45:11,742] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:11,768] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:11,831] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.102 seconds
+[2020-06-23 20:45:15,734] {scheduler_job.py:154} INFO - Started process (PID=25457) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:15,745] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:15,746] {logging_mixin.py:112} INFO - [2020-06-23 20:45:15,746] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:15,767] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:15,820] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.086 seconds
+[2020-06-23 20:45:19,730] {scheduler_job.py:154} INFO - Started process (PID=25459) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:19,740] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:19,741] {logging_mixin.py:112} INFO - [2020-06-23 20:45:19,741] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:19,767] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:19,835] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.105 seconds
+[2020-06-23 20:45:23,709] {scheduler_job.py:154} INFO - Started process (PID=25472) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:23,717] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:23,718] {logging_mixin.py:112} INFO - [2020-06-23 20:45:23,717] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:23,742] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:23,808] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.099 seconds
+[2020-06-23 20:45:27,737] {scheduler_job.py:154} INFO - Started process (PID=25474) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:27,750] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:27,751] {logging_mixin.py:112} INFO - [2020-06-23 20:45:27,751] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:27,784] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:27,872] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.135 seconds
+[2020-06-23 20:45:31,719] {scheduler_job.py:154} INFO - Started process (PID=25476) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:31,730] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:31,731] {logging_mixin.py:112} INFO - [2020-06-23 20:45:31,731] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:31,757] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:31,825] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.106 seconds
+[2020-06-23 20:45:35,748] {scheduler_job.py:154} INFO - Started process (PID=25478) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:35,763] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:35,765] {logging_mixin.py:112} INFO - [2020-06-23 20:45:35,765] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:35,792] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:35,855] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.107 seconds
+[2020-06-23 20:45:39,748] {scheduler_job.py:154} INFO - Started process (PID=25480) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:39,760] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:39,761] {logging_mixin.py:112} INFO - [2020-06-23 20:45:39,761] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:39,787] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:39,857] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.109 seconds
+[2020-06-23 20:45:43,737] {scheduler_job.py:154} INFO - Started process (PID=25482) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:43,747] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py for tasks to queue
+[2020-06-23 20:45:43,748] {logging_mixin.py:112} INFO - [2020-06-23 20:45:43,748] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:43,775] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py
+[2020-06-23 20:45:43,845] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/first_dag.py took 0.108 seconds
