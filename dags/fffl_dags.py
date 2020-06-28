@@ -35,13 +35,13 @@ default_args = {
     "retry_delay": timedelta(minutes=5),
 }
 
-print("running...")
+print("running fffl_dags...")
 
 dag = DAG(
     "fffl_update",
     default_args=default_args,
     description="Update FFFL Scores",
-    schedule_interval=timedelta(hours=1),
+    schedule_interval="* * * * *",
 )
 
 update_scores = PythonOperator(

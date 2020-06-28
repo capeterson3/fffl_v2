@@ -5,20 +5,24 @@ import json
 from auth import yahoo_auth
 import os
 
-with open("./auth/oauth2yahoo.json") as json_yahoo_file:
-    auths = json.load(json_yahoo_file)
-yahoo_consumer_key = auths["consumer_key"]
-yahoo_consumer_secret = auths["consumer_secret"]
-yahoo_access_key = auths["access_token"]
-json_yahoo_file.close()
 
-yahoo_api = yahoo_auth.Yahoo_Api(
-    yahoo_consumer_key, yahoo_consumer_secret, yahoo_access_key
-)
-yahoo_api._login()
+def login():
+    with open("./auth/oauth2yahoo.json") as json_yahoo_file:
+        auths = json.load(json_yahoo_file)
+    yahoo_consumer_key = auths["consumer_key"]
+    yahoo_consumer_secret = auths["consumer_secret"]
+    yahoo_access_key = auths["access_token"]
+    json_yahoo_file.close()
+
+    yahoo_api = yahoo_auth.Yahoo_Api(
+        yahoo_consumer_key, yahoo_consumer_secret, yahoo_access_key
+    )
+    yahoo_api._login()
 
 
 def findGameID(year):
+
+    login()
 
     with open("./data/league_info/league_id_mapping.json", "r") as m:
         league_id_mapping = eval(m.read())
@@ -47,6 +51,8 @@ def findGameID(year):
 
 
 def updateScoreboards(year):
+
+    login()
 
     if not os.path.exists("./data/weekly_scoreboards/" + str(year)):
         os.makedirs("./data/weekly_scoreboards/" + str(year))
@@ -83,6 +89,9 @@ def updateScoreboards(year):
 
 
 def parse_scores(year, week):
+
+    login()
+
     # load team number and names references as a dictionary
     team_numbers = {}
     with open("./data/owner_info/team_mapping.json", "r") as f:
@@ -145,7 +154,7 @@ def parse_scores(year, week):
             except:
                 pass
 
-    print(scores)
+    # print(scores)
     return scores
 
 
@@ -155,4 +164,16 @@ if __name__ == "__main__":
 
     # updateScoreboards(2019)
 
-    print(parse_scores(2019, 10))
+    df = pd.DataFrame(
+        parse_scores(2019, 13),
+        columns=[
+            "matchup_id",
+            "year",
+            "week",
+            "team",
+            "pts_for",
+            "opponent",
+            "pts_against",
+        ],
+    )
+    print(df)

@@ -6,7 +6,7 @@ args = {
     "owner": "Airflow",
     "start_date": days_ago(1),
 }
-
+print("running first_day.py ********")
 dag = DAG(dag_id="first_dag", default_args=args, schedule_interval="* * * * *")
 
 task_one = BashOperator(

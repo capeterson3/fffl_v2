@@ -10493,3 +10493,1215 @@ ModuleNotFoundError: No module named 'yahoo_oauth'
 [2020-06-23 20:45:45,758] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
 [2020-06-23 20:45:45,759] {logging_mixin.py:112} INFO - [2020-06-23 20:45:45,759] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
 [2020-06-23 20:45:46,455] {scheduler_job.py:411} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-23 20:57:31,285] {scheduler_job.py:154} INFO - Started process (PID=25774) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:31,310] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:31,312] {logging_mixin.py:112} INFO - [2020-06-23 20:57:31,311] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:32,228] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,227 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:32,229] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,228 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2581.754452943802
+[2020-06-23 20:57:32,229] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,229 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:32,233] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,233 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2581.7591202259064
+[2020-06-23 20:57:32,233] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,233 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:32,234] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,234 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:32,235] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,235 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2581.7607085704803
+[2020-06-23 20:57:32,235] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,235 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:32,238] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,238 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2581.76354265213
+[2020-06-23 20:57:32,238] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:32,238 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:32,238] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:32,242] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:32,294] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.009 seconds
+[2020-06-23 20:57:35,250] {scheduler_job.py:154} INFO - Started process (PID=25776) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:35,270] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:35,272] {logging_mixin.py:112} INFO - [2020-06-23 20:57:35,271] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:36,368] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,368 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:36,369] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,369 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2585.894812822342
+[2020-06-23 20:57:36,369] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,369 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:36,372] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,372 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2585.8981461524963
+[2020-06-23 20:57:36,372] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,372 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:36,373] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,373 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:36,374] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,373 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2585.8994719982147
+[2020-06-23 20:57:36,374] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,374 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:36,376] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,376 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2585.9018020629883
+[2020-06-23 20:57:36,376] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:36,376 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:36,376] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:36,380] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:36,429] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.179 seconds
+[2020-06-23 20:57:39,296] {scheduler_job.py:154} INFO - Started process (PID=25778) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:39,309] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:39,313] {logging_mixin.py:112} INFO - [2020-06-23 20:57:39,311] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:40,221] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,221 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:40,222] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,222 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2589.7477769851685
+[2020-06-23 20:57:40,222] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,222 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:40,225] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,225 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2589.75097489357
+[2020-06-23 20:57:40,225] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,225 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:40,226] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,226 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:40,226] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,226 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2589.752382516861
+[2020-06-23 20:57:40,227] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,227 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:40,231] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,231 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2589.7565126419067
+[2020-06-23 20:57:40,231] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:40,231 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:40,231] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:40,235] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:40,285] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.990 seconds
+[2020-06-23 20:57:43,266] {scheduler_job.py:154} INFO - Started process (PID=25780) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:43,275] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:43,276] {logging_mixin.py:112} INFO - [2020-06-23 20:57:43,276] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:44,347] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,346 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:44,347] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,347 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2593.873301744461
+[2020-06-23 20:57:44,347] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,347 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:44,350] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,350 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2593.876359462738
+[2020-06-23 20:57:44,351] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,351 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:44,351] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,351 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:44,352] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,352 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2593.8777244091034
+[2020-06-23 20:57:44,352] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,352 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:44,354] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,354 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2593.8802728652954
+[2020-06-23 20:57:44,354] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:44,354 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:44,355] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:44,357] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:44,408] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.142 seconds
+[2020-06-23 20:57:47,309] {scheduler_job.py:154} INFO - Started process (PID=25782) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:47,333] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:47,334] {logging_mixin.py:112} INFO - [2020-06-23 20:57:47,334] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:48,275] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,275 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:48,276] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,276 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2597.8018279075623
+[2020-06-23 20:57:48,276] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,276 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:48,282] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,281 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2597.8074758052826
+[2020-06-23 20:57:48,282] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,282 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:48,282] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,282 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:48,283] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,283 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2597.809082508087
+[2020-06-23 20:57:48,283] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,283 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:48,286] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,286 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2597.8119263648987
+[2020-06-23 20:57:48,286] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:48,286 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:48,286] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:48,290] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:48,363] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.056 seconds
+[2020-06-23 20:57:51,459] {scheduler_job.py:154} INFO - Started process (PID=25784) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:51,470] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:51,472] {logging_mixin.py:112} INFO - [2020-06-23 20:57:51,472] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:52,552] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,552 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:52,553] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,553 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2602.0785596370697
+[2020-06-23 20:57:52,553] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,553 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:52,556] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,556 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2602.0820169448853
+[2020-06-23 20:57:52,556] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,556 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:52,557] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,557 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:52,559] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,558 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2602.0837535858154
+[2020-06-23 20:57:52,560] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,560 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:52,564] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,563 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2602.089448451996
+[2020-06-23 20:57:52,564] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:52,564 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:52,564] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:52,567] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:52,617] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.158 seconds
+[2020-06-23 20:57:55,275] {scheduler_job.py:154} INFO - Started process (PID=25787) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:55,282] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:55,283] {logging_mixin.py:112} INFO - [2020-06-23 20:57:55,282] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:56,205] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,205 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:56,206] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,206 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2605.7319271564484
+[2020-06-23 20:57:56,207] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,206 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:56,213] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,213 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2605.738494157791
+[2020-06-23 20:57:56,213] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,213 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:56,213] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,213 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:57:56,214] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,214 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2605.7397496700287
+[2020-06-23 20:57:56,214] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,214 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:56,216] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,216 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2605.741988182068
+[2020-06-23 20:57:56,216] {logging_mixin.py:112} WARNING - [2020-06-23 20:57:56,216 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:57:56,216] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:57:56,220] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:56,275] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.000 seconds
+[2020-06-23 20:57:59,290] {scheduler_job.py:154} INFO - Started process (PID=25792) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:57:59,299] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:57:59,300] {logging_mixin.py:112} INFO - [2020-06-23 20:57:59,300] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:00,254] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,254 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:00,255] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,255 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2609.7806713581085
+[2020-06-23 20:58:00,255] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,255 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:00,265] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,264 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2609.7904789447784
+[2020-06-23 20:58:00,265] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,265 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:00,265] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,265 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:00,266] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,266 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2609.7918503284454
+[2020-06-23 20:58:00,266] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,266 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:00,269] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,268 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2609.7944765090942
+[2020-06-23 20:58:00,269] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:00,269 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:00,269] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:00,273] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:00,346] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.055 seconds
+[2020-06-23 20:58:03,344] {scheduler_job.py:154} INFO - Started process (PID=25794) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:03,370] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:03,378] {logging_mixin.py:112} INFO - [2020-06-23 20:58:03,371] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:04,296] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,296 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:04,297] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,297 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2613.8228721618652
+[2020-06-23 20:58:04,297] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,297 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:04,301] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,300 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2613.8264491558075
+[2020-06-23 20:58:04,301] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,301 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:04,301] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,301 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:04,302] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,302 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2613.827891588211
+[2020-06-23 20:58:04,302] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,302 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:04,305] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,305 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2613.830983400345
+[2020-06-23 20:58:04,305] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:04,305 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:04,305] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:04,310] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:04,364] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.020 seconds
+[2020-06-23 20:58:07,317] {scheduler_job.py:154} INFO - Started process (PID=25796) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:07,334] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:07,335] {logging_mixin.py:112} INFO - [2020-06-23 20:58:07,335] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:08,342] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,342 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:08,343] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,343 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2617.868936777115
+[2020-06-23 20:58:08,343] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,343 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:08,346] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,346 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2617.8721787929535
+[2020-06-23 20:58:08,346] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,346 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:08,347] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,347 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:08,348] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,348 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2617.873648405075
+[2020-06-23 20:58:08,348] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,348 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:08,350] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,350 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2617.876169681549
+[2020-06-23 20:58:08,350] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:08,350 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:08,351] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:08,354] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:08,411] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.094 seconds
+[2020-06-23 20:58:11,332] {scheduler_job.py:154} INFO - Started process (PID=25798) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:11,350] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:11,351] {logging_mixin.py:112} INFO - [2020-06-23 20:58:11,351] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:12,235] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,235 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:12,236] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,235 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2621.761445760727
+[2020-06-23 20:58:12,236] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,236 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:12,242] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,241 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2621.7673761844635
+[2020-06-23 20:58:12,242] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,242 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:12,242] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,242 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:12,243] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,243 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2621.768772125244
+[2020-06-23 20:58:12,243] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,243 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:12,246] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,245 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2621.771466732025
+[2020-06-23 20:58:12,246] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:12,246 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:12,246] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:12,249] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:12,304] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.972 seconds
+[2020-06-23 20:58:15,363] {scheduler_job.py:154} INFO - Started process (PID=25800) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:15,390] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:15,395] {logging_mixin.py:112} INFO - [2020-06-23 20:58:15,395] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:16,315] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,314 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:16,316] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,315 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2625.8414239883423
+[2020-06-23 20:58:16,316] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,316 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:16,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2625.84525346756
+[2020-06-23 20:58:16,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,320 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:16,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,320 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:16,321] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,321 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2625.8471174240112
+[2020-06-23 20:58:16,322] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,321 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:16,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2625.850942134857
+[2020-06-23 20:58:16,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:16,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:16,325] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:16,329] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:16,379] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.016 seconds
+[2020-06-23 20:58:19,367] {scheduler_job.py:154} INFO - Started process (PID=25802) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:19,396] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:19,397] {logging_mixin.py:112} INFO - [2020-06-23 20:58:19,397] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:20,314] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,314 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:20,315] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,315 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2629.840678691864
+[2020-06-23 20:58:20,315] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,315 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:20,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2629.8449354171753
+[2020-06-23 20:58:20,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:20,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,320 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:20,321] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,321 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2629.847065925598
+[2020-06-23 20:58:20,321] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,321 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:20,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2629.8509356975555
+[2020-06-23 20:58:20,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:20,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:20,325] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:20,328] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:20,378] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.011 seconds
+[2020-06-23 20:58:23,342] {scheduler_job.py:154} INFO - Started process (PID=25804) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:23,353] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:23,355] {logging_mixin.py:112} INFO - [2020-06-23 20:58:23,354] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:24,259] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,258 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:24,259] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,259 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2633.7853462696075
+[2020-06-23 20:58:24,260] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,260 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:24,263] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,263 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2633.788856267929
+[2020-06-23 20:58:24,263] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,263 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:24,264] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,264 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:24,264] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,264 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2633.7901515960693
+[2020-06-23 20:58:24,264] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,264 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:24,268] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,268 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2633.7937421798706
+[2020-06-23 20:58:24,268] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:24,268 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:24,268] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:24,273] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:24,328] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.985 seconds
+[2020-06-23 20:58:27,353] {scheduler_job.py:154} INFO - Started process (PID=25806) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:27,377] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:27,378] {logging_mixin.py:112} INFO - [2020-06-23 20:58:27,378] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:28,977] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,977 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:28,978] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,978 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2638.5038204193115
+[2020-06-23 20:58:28,978] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,978 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:28,982] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,981 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2638.507400751114
+[2020-06-23 20:58:28,982] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,982 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:28,982] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,982 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:28,984] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,984 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2638.51029419899
+[2020-06-23 20:58:28,985] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,985 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:28,992] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,992 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2638.5176334381104
+[2020-06-23 20:58:28,993] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:28,993 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:28,994] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:28,999] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:29,040] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.688 seconds
+[2020-06-23 20:58:31,324] {scheduler_job.py:154} INFO - Started process (PID=25812) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:31,343] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:31,344] {logging_mixin.py:112} INFO - [2020-06-23 20:58:31,344] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:32,948] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,948 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:32,949] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,949 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2642.4752593040466
+[2020-06-23 20:58:32,950] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,949 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:32,957] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,957 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2642.4826426506042
+[2020-06-23 20:58:32,957] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,957 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:32,958] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,957 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:32,958] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,958 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2642.484078645706
+[2020-06-23 20:58:32,958] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,958 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:32,963] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,963 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2642.4888920783997
+[2020-06-23 20:58:32,963] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:32,963 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:32,963] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:32,967] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:33,075] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.751 seconds
+[2020-06-23 20:58:35,333] {scheduler_job.py:154} INFO - Started process (PID=25814) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:35,344] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:35,345] {logging_mixin.py:112} INFO - [2020-06-23 20:58:35,345] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:36,223] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,223 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:36,224] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,224 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2645.749739408493
+[2020-06-23 20:58:36,224] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,224 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:36,227] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,227 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2645.7529990673065
+[2020-06-23 20:58:36,227] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,227 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:36,228] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,228 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:36,229] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,229 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2645.7548673152924
+[2020-06-23 20:58:36,229] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,229 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:36,233] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,233 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2645.7586159706116
+[2020-06-23 20:58:36,233] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:36,233 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:36,233] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:36,238] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:36,293] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.960 seconds
+[2020-06-23 20:58:39,344] {scheduler_job.py:154} INFO - Started process (PID=25816) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:39,360] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:39,377] {logging_mixin.py:112} INFO - [2020-06-23 20:58:39,375] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:40,557] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,556 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:40,557] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,557 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2650.0833678245544
+[2020-06-23 20:58:40,558] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,558 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:40,561] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,560 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2650.0864837169647
+[2020-06-23 20:58:40,561] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,561 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:40,561] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,561 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:40,562] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,562 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2650.087786912918
+[2020-06-23 20:58:40,562] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,562 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:40,569] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,569 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2650.09463763237
+[2020-06-23 20:58:40,569] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:40,569 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:40,570] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:40,573] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:40,613] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.269 seconds
+[2020-06-23 20:58:43,408] {scheduler_job.py:154} INFO - Started process (PID=25818) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:43,443] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:43,445] {logging_mixin.py:112} INFO - [2020-06-23 20:58:43,445] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:44,427] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,427 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:44,428] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,428 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2653.9535191059113
+[2020-06-23 20:58:44,428] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,428 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:44,434] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,433 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2653.9590134620667
+[2020-06-23 20:58:44,434] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,434 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:44,436] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,435 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:44,436] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,436 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2653.9623415470123
+[2020-06-23 20:58:44,437] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,437 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:44,440] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,440 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2653.9655969142914
+[2020-06-23 20:58:44,440] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:44,440 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:44,440] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:44,444] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:44,504] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.096 seconds
+[2020-06-23 20:58:47,407] {scheduler_job.py:154} INFO - Started process (PID=25820) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:47,428] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:47,428] {logging_mixin.py:112} INFO - [2020-06-23 20:58:47,428] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:48,522] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,522 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:48,523] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,523 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2658.048600912094
+[2020-06-23 20:58:48,523] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,523 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:48,526] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,526 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2658.0521388053894
+[2020-06-23 20:58:48,526] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,526 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:48,527] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,527 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:48,528] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,528 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2658.0537493228912
+[2020-06-23 20:58:48,528] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,528 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:48,536] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,536 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2658.0615475177765
+[2020-06-23 20:58:48,536] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:48,536 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:48,536] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:48,540] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:48,639] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.233 seconds
+[2020-06-23 20:58:51,474] {scheduler_job.py:154} INFO - Started process (PID=25822) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:51,503] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:51,506] {logging_mixin.py:112} INFO - [2020-06-23 20:58:51,505] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:52,627] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,627 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:52,628] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,627 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2662.1534626483917
+[2020-06-23 20:58:52,628] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,628 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:52,636] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,636 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2662.1622664928436
+[2020-06-23 20:58:52,637] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,637 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:52,638] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,638 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:52,639] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,639 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2662.1651117801666
+[2020-06-23 20:58:52,640] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,640 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:52,644] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,644 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2662.1702160835266
+[2020-06-23 20:58:52,644] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:52,644 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:52,645] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:52,654] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:52,694] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.220 seconds
+[2020-06-23 20:58:55,356] {scheduler_job.py:154} INFO - Started process (PID=25824) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:55,363] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:55,364] {logging_mixin.py:112} INFO - [2020-06-23 20:58:55,364] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:56,318] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,318 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:56,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2665.8449273109436
+[2020-06-23 20:58:56,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:56,323] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,322 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2665.848423242569
+[2020-06-23 20:58:56,323] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,323 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:56,324] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,323 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:58:56,324] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,324 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2665.85023188591
+[2020-06-23 20:58:56,324] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,324 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:56,327] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,327 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2665.852822303772
+[2020-06-23 20:58:56,327] {logging_mixin.py:112} WARNING - [2020-06-23 20:58:56,327 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:58:56,327] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:58:56,332] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:56,372] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.016 seconds
+[2020-06-23 20:58:59,410] {scheduler_job.py:154} INFO - Started process (PID=25826) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:58:59,424] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:58:59,425] {logging_mixin.py:112} INFO - [2020-06-23 20:58:59,424] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:00,520] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,520 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:00,521] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2670.046872615814
+[2020-06-23 20:59:00,521] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:00,525] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,525 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2670.05051112175
+[2020-06-23 20:59:00,525] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,525 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:00,525] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,525 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:00,526] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,526 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2670.0519478321075
+[2020-06-23 20:59:00,526] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,526 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:00,531] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,530 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2670.055980205536
+[2020-06-23 20:59:00,532] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:00,532 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:00,532] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:00,535] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:00,584] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.174 seconds
+[2020-06-23 20:59:03,437] {scheduler_job.py:154} INFO - Started process (PID=25828) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:03,457] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:03,458] {logging_mixin.py:112} INFO - [2020-06-23 20:59:03,458] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:04,606] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,606 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:04,607] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,606 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2674.1324105262756
+[2020-06-23 20:59:04,607] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,607 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:04,620] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,618 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2674.1442987918854
+[2020-06-23 20:59:04,620] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,620 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:04,621] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,621 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:04,621] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2674.14737534523
+[2020-06-23 20:59:04,622] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:04,624] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,624 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2674.1501309871674
+[2020-06-23 20:59:04,624] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:04,624 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:04,625] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:04,635] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:04,708] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.271 seconds
+[2020-06-23 20:59:07,374] {scheduler_job.py:154} INFO - Started process (PID=25834) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:07,385] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:07,386] {logging_mixin.py:112} INFO - [2020-06-23 20:59:07,386] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:08,314] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,314 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:08,315] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,315 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2677.840885400772
+[2020-06-23 20:59:08,315] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,315 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:08,318] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,318 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2677.8443109989166
+[2020-06-23 20:59:08,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,319 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:08,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,319 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:08,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,320 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2677.8461866378784
+[2020-06-23 20:59:08,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,320 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:08,323] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,323 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2677.849072933197
+[2020-06-23 20:59:08,323] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:08,323 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:08,324] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:08,327] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:08,382] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.008 seconds
+[2020-06-23 20:59:11,451] {scheduler_job.py:154} INFO - Started process (PID=25836) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:11,485] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:11,486] {logging_mixin.py:112} INFO - [2020-06-23 20:59:11,486] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:12,512] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,512 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:12,513] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,513 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2682.0386555194855
+[2020-06-23 20:59:12,514] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,513 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:12,517] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,517 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2682.0428631305695
+[2020-06-23 20:59:12,517] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,517 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:12,518] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,518 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:12,519] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,519 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2682.0445659160614
+[2020-06-23 20:59:12,519] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,519 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:12,521] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2682.0469460487366
+[2020-06-23 20:59:12,521] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:12,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:12,521] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:12,526] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:12,579] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.128 seconds
+[2020-06-23 20:59:15,523] {scheduler_job.py:154} INFO - Started process (PID=25838) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:15,540] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:15,545] {logging_mixin.py:112} INFO - [2020-06-23 20:59:15,540] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:16,497] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,497 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:16,497] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,497 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2686.0233986377716
+[2020-06-23 20:59:16,498] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,498 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:16,501] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,501 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2686.026663541794
+[2020-06-23 20:59:16,501] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,501 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:16,502] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,502 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:16,503] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,503 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2686.0285375118256
+[2020-06-23 20:59:16,503] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,503 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:16,505] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,505 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2686.0313544273376
+[2020-06-23 20:59:16,506] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:16,506 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:16,506] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:16,510] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:16,564] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.041 seconds
+[2020-06-23 20:59:19,384] {scheduler_job.py:154} INFO - Started process (PID=25840) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:19,391] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:19,393] {logging_mixin.py:112} INFO - [2020-06-23 20:59:19,392] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:20,487] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,486 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:20,487] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,487 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2690.013335466385
+[2020-06-23 20:59:20,488] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,488 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:20,492] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,491 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2690.0173015594482
+[2020-06-23 20:59:20,492] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,492 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:20,494] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,494 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:20,495] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,495 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2690.020756006241
+[2020-06-23 20:59:20,495] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,495 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:20,498] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,497 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2690.023458957672
+[2020-06-23 20:59:20,498] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:20,498 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:20,498] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:20,502] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:20,550] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.166 seconds
+[2020-06-23 20:59:23,407] {scheduler_job.py:154} INFO - Started process (PID=25842) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:23,420] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:23,421] {logging_mixin.py:112} INFO - [2020-06-23 20:59:23,421] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:24,402] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,402 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:24,403] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,403 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2693.9286625385284
+[2020-06-23 20:59:24,403] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,403 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:24,406] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,406 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2693.9322068691254
+[2020-06-23 20:59:24,407] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,406 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:24,409] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,409 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:24,411] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,410 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2693.9363553524017
+[2020-06-23 20:59:24,411] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,411 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:24,415] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,415 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2693.940494775772
+[2020-06-23 20:59:24,428] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:24,416 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:24,428] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:24,432] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:24,480] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.073 seconds
+[2020-06-23 20:59:27,499] {scheduler_job.py:154} INFO - Started process (PID=25844) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:27,508] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:27,511] {logging_mixin.py:112} INFO - [2020-06-23 20:59:27,511] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:28,499] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,498 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:28,499] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,499 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2698.0251207351685
+[2020-06-23 20:59:28,499] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,499 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:28,502] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,502 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2698.0277783870697
+[2020-06-23 20:59:28,502] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,502 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:28,503] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,503 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:28,503] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,503 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2698.029173374176
+[2020-06-23 20:59:28,503] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,503 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:28,511] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,510 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2698.035580396652
+[2020-06-23 20:59:28,511] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:28,511 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:28,512] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:28,515] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:28,567] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.068 seconds
+[2020-06-23 20:59:31,419] {scheduler_job.py:154} INFO - Started process (PID=25846) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:31,437] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:31,439] {logging_mixin.py:112} INFO - [2020-06-23 20:59:31,437] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:32,517] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,517 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:32,518] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,518 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2702.0439188480377
+[2020-06-23 20:59:32,518] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,518 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:32,539] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,539 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2702.0532693862915
+[2020-06-23 20:59:32,540] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,540 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:32,541] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,541 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:32,543] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,542 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2702.0683534145355
+[2020-06-23 20:59:32,543] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,543 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:32,563] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,563 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2702.0885202884674
+[2020-06-23 20:59:32,563] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:32,563 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:32,564] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:32,566] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:32,618] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.198 seconds
+[2020-06-23 20:59:35,461] {scheduler_job.py:154} INFO - Started process (PID=25848) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:35,470] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:35,474] {logging_mixin.py:112} INFO - [2020-06-23 20:59:35,474] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:36,526] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,526 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:36,527] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,527 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2706.05321764946
+[2020-06-23 20:59:36,527] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,527 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:36,531] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,531 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2706.056628704071
+[2020-06-23 20:59:36,531] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,531 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:36,532] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,531 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:36,532] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,532 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2706.0580904483795
+[2020-06-23 20:59:36,532] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,532 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:36,535] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,535 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2706.060849905014
+[2020-06-23 20:59:36,535] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:36,535 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:36,535] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:36,539] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:36,588] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.127 seconds
+[2020-06-23 20:59:39,504] {scheduler_job.py:154} INFO - Started process (PID=25870) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:39,522] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:39,524] {logging_mixin.py:112} INFO - [2020-06-23 20:59:39,524] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:40,580] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,580 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:40,581] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,581 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2710.1069478988647
+[2020-06-23 20:59:40,581] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,581 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:40,584] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,584 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2710.1102516651154
+[2020-06-23 20:59:40,584] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,584 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:40,585] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,585 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:40,586] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,586 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2710.111650943756
+[2020-06-23 20:59:40,586] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,586 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:40,592] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,591 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2710.1174647808075
+[2020-06-23 20:59:40,592] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:40,592 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:40,592] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:40,595] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:40,645] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.142 seconds
+[2020-06-23 20:59:43,437] {scheduler_job.py:154} INFO - Started process (PID=25876) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:43,447] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:43,448] {logging_mixin.py:112} INFO - [2020-06-23 20:59:43,448] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:44,319] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,319 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:44,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,320 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2713.846023082733
+[2020-06-23 20:59:44,320] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,320 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:44,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2713.8509216308594
+[2020-06-23 20:59:44,325] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,325 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:44,326] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,326 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:44,326] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,326 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2713.852341413498
+[2020-06-23 20:59:44,326] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,326 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:44,329] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,329 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2713.854636669159
+[2020-06-23 20:59:44,329] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:44,329 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:44,329] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:44,332] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:44,384] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.947 seconds
+[2020-06-23 20:59:47,496] {scheduler_job.py:154} INFO - Started process (PID=25878) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:47,509] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:47,510] {logging_mixin.py:112} INFO - [2020-06-23 20:59:47,510] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:48,580] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,580 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:48,581] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,581 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2718.1066699028015
+[2020-06-23 20:59:48,581] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,581 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:48,584] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,583 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2718.109447956085
+[2020-06-23 20:59:48,584] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,584 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:48,584] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,584 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:48,585] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,585 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2718.1109902858734
+[2020-06-23 20:59:48,585] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,585 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:48,590] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,590 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2718.1156985759735
+[2020-06-23 20:59:48,590] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:48,590 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:48,590] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:48,593] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:48,642] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.145 seconds
+[2020-06-23 20:59:51,528] {scheduler_job.py:154} INFO - Started process (PID=25880) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:51,541] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:51,543] {logging_mixin.py:112} INFO - [2020-06-23 20:59:51,542] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:52,462] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,462 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:52,463] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,463 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2721.9887325763702
+[2020-06-23 20:59:52,463] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,463 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:52,466] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,466 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2721.991963148117
+[2020-06-23 20:59:52,466] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,466 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:52,467] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,467 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:52,468] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,467 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2721.9934718608856
+[2020-06-23 20:59:52,468] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,468 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:52,472] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,472 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2721.9980132579803
+[2020-06-23 20:59:52,472] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:52,472 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:52,472] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:52,476] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:52,526] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.998 seconds
+[2020-06-23 20:59:55,497] {scheduler_job.py:154} INFO - Started process (PID=25882) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:55,518] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:55,520] {logging_mixin.py:112} INFO - [2020-06-23 20:59:55,520] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:56,430] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,430 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:56,430] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,430 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2725.9562594890594
+[2020-06-23 20:59:56,430] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,430 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:56,434] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,434 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2725.9596960544586
+[2020-06-23 20:59:56,434] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,434 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:56,435] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,435 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 20:59:56,436] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,436 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2725.9615564346313
+[2020-06-23 20:59:56,437] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,437 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:56,440] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,440 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2725.965528011322
+[2020-06-23 20:59:56,440] {logging_mixin.py:112} WARNING - [2020-06-23 20:59:56,440 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 20:59:56,440] {logging_mixin.py:112} INFO - running...
+[2020-06-23 20:59:56,443] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:56,500] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.003 seconds
+[2020-06-23 20:59:59,497] {scheduler_job.py:154} INFO - Started process (PID=25884) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 20:59:59,518] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 20:59:59,521] {logging_mixin.py:112} INFO - [2020-06-23 20:59:59,520] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:00,617] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,617 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:00,618] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,618 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2730.143652200699
+[2020-06-23 21:00:00,618] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,618 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:00,622] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,622 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2730.1476769447327
+[2020-06-23 21:00:00,622] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,622 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:00,622] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,622 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:00,623] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,623 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2730.1491317749023
+[2020-06-23 21:00:00,623] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,623 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:00,626] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,626 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2730.151643514633
+[2020-06-23 21:00:00,626] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:00,626 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:00,626] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:00,629] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:00,684] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.187 seconds
+[2020-06-23 21:00:03,516] {scheduler_job.py:154} INFO - Started process (PID=25886) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:03,529] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:03,530] {logging_mixin.py:112} INFO - [2020-06-23 21:00:03,530] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:04,578] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,578 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:04,579] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,579 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2734.1051104068756
+[2020-06-23 21:00:04,579] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,579 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:04,583] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,583 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2734.1086716651917
+[2020-06-23 21:00:04,583] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,583 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:04,586] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,586 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:04,587] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,586 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2734.1125016212463
+[2020-06-23 21:00:04,587] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,587 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:04,589] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,589 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2734.1145746707916
+[2020-06-23 21:00:04,589] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:04,589 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:04,589] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:04,592] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:04,640] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.125 seconds
+[2020-06-23 21:00:07,476] {scheduler_job.py:154} INFO - Started process (PID=25888) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:07,489] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:07,490] {logging_mixin.py:112} INFO - [2020-06-23 21:00:07,490] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:08,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,520 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:08,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2738.0470843315125
+[2020-06-23 21:00:08,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:08,524] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,524 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2738.0501153469086
+[2020-06-23 21:00:08,527] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,527 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:08,529] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,529 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:08,530] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,530 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2738.0556943416595
+[2020-06-23 21:00:08,530] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,530 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:08,536] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,536 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2738.0618600845337
+[2020-06-23 21:00:08,536] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:08,536 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:08,536] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:08,539] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:08,606] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.130 seconds
+[2020-06-23 21:00:11,500] {scheduler_job.py:154} INFO - Started process (PID=25890) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:11,512] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:11,514] {logging_mixin.py:112} INFO - [2020-06-23 21:00:11,514] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:12,401] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,401 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:12,402] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,401 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2741.9275035858154
+[2020-06-23 21:00:12,402] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,402 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:12,405] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,405 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2741.930610179901
+[2020-06-23 21:00:12,405] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,405 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:12,405] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,405 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:12,406] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,406 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2741.931718349457
+[2020-06-23 21:00:12,406] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,406 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:12,408] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,408 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2741.9340600967407
+[2020-06-23 21:00:12,408] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:12,408 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:12,408] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:12,411] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:12,457] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.957 seconds
+[2020-06-23 21:00:15,507] {scheduler_job.py:154} INFO - Started process (PID=25896) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:15,518] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:15,519] {logging_mixin.py:112} INFO - [2020-06-23 21:00:15,519] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:16,447] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,446 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:16,448] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,448 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2745.9738318920135
+[2020-06-23 21:00:16,449] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,449 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:16,454] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,454 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2745.979838371277
+[2020-06-23 21:00:16,454] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,454 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:16,455] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,455 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:16,455] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,455 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2745.981278896332
+[2020-06-23 21:00:16,456] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,456 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:16,458] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,458 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2745.9842352867126
+[2020-06-23 21:00:16,459] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:16,458 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:16,459] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:16,462] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:16,507] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.999 seconds
+[2020-06-23 21:00:19,511] {scheduler_job.py:154} INFO - Started process (PID=25898) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:19,524] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:19,525] {logging_mixin.py:112} INFO - [2020-06-23 21:00:19,525] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:20,437] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,437 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:20,438] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,438 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2749.963864326477
+[2020-06-23 21:00:20,438] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,438 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:20,441] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,441 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2749.9671654701233
+[2020-06-23 21:00:20,441] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,441 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:20,442] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,442 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:20,443] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,442 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2749.9684343338013
+[2020-06-23 21:00:20,443] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,443 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:20,445] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,445 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2749.9713683128357
+[2020-06-23 21:00:20,446] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:20,446 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:20,446] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:20,451] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:20,507] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.996 seconds
+[2020-06-23 21:00:23,530] {scheduler_job.py:154} INFO - Started process (PID=25900) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:23,543] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:23,545] {logging_mixin.py:112} INFO - [2020-06-23 21:00:23,545] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:24,487] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,487 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:24,488] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,488 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2754.013791322708
+[2020-06-23 21:00:24,488] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,488 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:24,491] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,491 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2754.0172567367554
+[2020-06-23 21:00:24,491] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,491 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:24,492] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,492 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:24,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,493 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2754.0188088417053
+[2020-06-23 21:00:24,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,493 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:24,499] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,499 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2754.024968147278
+[2020-06-23 21:00:24,499] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:24,499 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:24,499] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:24,517] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:24,564] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.034 seconds
+[2020-06-23 21:00:27,572] {scheduler_job.py:154} INFO - Started process (PID=25902) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:27,590] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:27,591] {logging_mixin.py:112} INFO - [2020-06-23 21:00:27,591] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:28,681] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,679 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:28,683] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,682 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2758.208436727524
+[2020-06-23 21:00:28,683] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,683 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:28,685] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,685 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2758.2113325595856
+[2020-06-23 21:00:28,686] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,686 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:28,686] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,686 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:28,687] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,687 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2758.2126710414886
+[2020-06-23 21:00:28,687] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,687 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:28,689] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,689 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2758.215208530426
+[2020-06-23 21:00:28,689] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:28,689 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:28,690] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:28,693] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:28,742] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.170 seconds
+[2020-06-23 21:00:31,528] {scheduler_job.py:154} INFO - Started process (PID=25904) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:31,540] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:31,541] {logging_mixin.py:112} INFO - [2020-06-23 21:00:31,541] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:32,477] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,477 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:32,478] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,478 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2762.003746986389
+[2020-06-23 21:00:32,478] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,478 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:32,482] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,482 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2762.0078756809235
+[2020-06-23 21:00:32,482] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,482 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:32,483] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,483 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:32,483] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,483 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2762.009233236313
+[2020-06-23 21:00:32,483] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,483 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:32,486] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,486 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2762.0116894245148
+[2020-06-23 21:00:32,486] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:32,486 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:32,486] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:32,489] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:32,544] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.016 seconds
+[2020-06-23 21:00:35,540] {scheduler_job.py:154} INFO - Started process (PID=25906) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:35,554] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:35,555] {logging_mixin.py:112} INFO - [2020-06-23 21:00:35,554] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:36,481] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,481 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:36,482] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,482 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2766.007796764374
+[2020-06-23 21:00:36,482] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,482 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:36,485] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,485 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2766.0113055706024
+[2020-06-23 21:00:36,486] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,486 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:36,486] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,486 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:36,487] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,487 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2766.012709379196
+[2020-06-23 21:00:36,487] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,487 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:36,490] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,490 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2766.0155799388885
+[2020-06-23 21:00:36,490] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:36,490 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:36,490] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:36,497] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:36,567] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.028 seconds
+[2020-06-23 21:00:39,602] {scheduler_job.py:154} INFO - Started process (PID=25908) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:39,619] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:39,620] {logging_mixin.py:112} INFO - [2020-06-23 21:00:39,620] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:40,516] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,516 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:40,517] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,517 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2770.0430533885956
+[2020-06-23 21:00:40,517] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,517 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:40,520] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,520 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2770.0463206768036
+[2020-06-23 21:00:40,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,520 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:40,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,521 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:40,522] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,522 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2770.0475895404816
+[2020-06-23 21:00:40,522] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,522 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:40,525] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,524 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2770.0504529476166
+[2020-06-23 21:00:40,525] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:40,525 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:40,525] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:40,529] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:40,580] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.978 seconds
+[2020-06-23 21:00:43,554] {scheduler_job.py:154} INFO - Started process (PID=25910) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:43,575] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:43,577] {logging_mixin.py:112} INFO - [2020-06-23 21:00:43,576] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:44,469] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,468 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:44,469] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,469 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2773.9953587055206
+[2020-06-23 21:00:44,470] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,470 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:44,473] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,473 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2773.9988491535187
+[2020-06-23 21:00:44,473] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,473 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:44,474] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,474 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:44,474] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,474 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2774.000320672989
+[2020-06-23 21:00:44,475] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,474 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:44,478] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,478 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2774.0041873455048
+[2020-06-23 21:00:44,478] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:44,478 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:44,479] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:44,482] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:44,533] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.979 seconds
+[2020-06-23 21:00:47,569] {scheduler_job.py:154} INFO - Started process (PID=25912) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:47,583] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:47,584] {logging_mixin.py:112} INFO - [2020-06-23 21:00:47,584] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:48,552] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,552 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:48,553] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,553 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2778.078759431839
+[2020-06-23 21:00:48,553] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,553 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:48,559] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,559 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2778.084829568863
+[2020-06-23 21:00:48,559] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,559 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:48,560] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,560 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:48,561] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,561 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2778.0870463848114
+[2020-06-23 21:00:48,561] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,561 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:48,564] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,563 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2778.089432954788
+[2020-06-23 21:00:48,564] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:48,564 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:48,564] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:48,567] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:48,627] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.058 seconds
+[2020-06-23 21:00:51,614] {scheduler_job.py:154} INFO - Started process (PID=25918) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:51,646] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:51,647] {logging_mixin.py:112} INFO - [2020-06-23 21:00:51,647] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:52,625] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,625 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:52,626] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,626 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2782.1520986557007
+[2020-06-23 21:00:52,626] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,626 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:52,629] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,629 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2782.1552970409393
+[2020-06-23 21:00:52,630] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,630 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:52,630] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,630 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:52,631] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,631 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2782.156972885132
+[2020-06-23 21:00:52,631] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,631 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:52,634] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,634 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2782.1598896980286
+[2020-06-23 21:00:52,634] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:52,634 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:52,634] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:52,638] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:52,696] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.081 seconds
+[2020-06-23 21:00:55,583] {scheduler_job.py:154} INFO - Started process (PID=25920) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:55,604] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:55,609] {logging_mixin.py:112} INFO - [2020-06-23 21:00:55,609] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:56,553] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,553 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:56,554] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,554 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2786.0799832344055
+[2020-06-23 21:00:56,554] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,554 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:56,560] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,560 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2786.0858204364777
+[2020-06-23 21:00:56,560] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,560 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:56,561] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,561 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:00:56,561] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,561 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2786.087339401245
+[2020-06-23 21:00:56,562] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,562 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:56,564] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,564 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2786.0900824069977
+[2020-06-23 21:00:56,564] {logging_mixin.py:112} WARNING - [2020-06-23 21:00:56,564 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:00:56,564] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:00:56,568] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:56,620] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.038 seconds
+[2020-06-23 21:00:59,551] {scheduler_job.py:154} INFO - Started process (PID=25922) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:00:59,568] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:00:59,569] {logging_mixin.py:112} INFO - [2020-06-23 21:00:59,569] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:00,483] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,483 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:00,484] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,484 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2790.01007437706
+[2020-06-23 21:01:00,484] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,484 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:00,488] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,488 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2790.0136573314667
+[2020-06-23 21:01:00,488] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,488 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:00,489] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,489 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:00,491] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,490 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2790.0163190364838
+[2020-06-23 21:01:00,491] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,491 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:00,495] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,495 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2790.0207982063293
+[2020-06-23 21:01:00,495] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:00,495 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:00,495] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:00,499] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:00,580] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.029 seconds
+[2020-06-23 21:01:03,593] {scheduler_job.py:154} INFO - Started process (PID=25924) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:03,604] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:03,607] {logging_mixin.py:112} INFO - [2020-06-23 21:01:03,606] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:04,512] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,512 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:04,513] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,513 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2794.0390508174896
+[2020-06-23 21:01:04,513] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,513 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:04,516] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,516 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2794.042313814163
+[2020-06-23 21:01:04,517] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,517 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:04,517] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,517 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:04,518] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,518 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2794.043679714203
+[2020-06-23 21:01:04,518] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,518 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:04,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2794.0468072891235
+[2020-06-23 21:01:04,521] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:04,521 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:04,521] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:04,525] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:04,577] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.984 seconds
+[2020-06-23 21:01:07,578] {scheduler_job.py:154} INFO - Started process (PID=25926) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:07,592] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:07,594] {logging_mixin.py:112} INFO - [2020-06-23 21:01:07,593] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:08,670] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,669 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:08,671] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,671 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2798.1965906620026
+[2020-06-23 21:01:08,671] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,671 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:08,675] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,675 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2798.20068359375
+[2020-06-23 21:01:08,675] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,675 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:08,675] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,675 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:08,676] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,676 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2798.2019662857056
+[2020-06-23 21:01:08,676] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,676 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:08,679] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,679 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2798.20454788208
+[2020-06-23 21:01:08,679] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:08,679 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:08,679] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:08,681] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:08,760] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.181 seconds
+[2020-06-23 21:01:11,574] {scheduler_job.py:154} INFO - Started process (PID=25928) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:11,588] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:11,590] {logging_mixin.py:112} INFO - [2020-06-23 21:01:11,590] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:12,543] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,543 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:12,543] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,543 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2802.0692088603973
+[2020-06-23 21:01:12,543] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,543 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:12,546] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,546 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2802.071943998337
+[2020-06-23 21:01:12,546] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,546 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:12,547] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,547 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:12,547] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,547 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2802.0731449127197
+[2020-06-23 21:01:12,547] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,547 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:12,550] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,550 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2802.075657606125
+[2020-06-23 21:01:12,550] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:12,550 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:12,550] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:12,561] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:12,609] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.035 seconds
+[2020-06-23 21:01:15,620] {scheduler_job.py:154} INFO - Started process (PID=25930) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:15,627] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:15,628] {logging_mixin.py:112} INFO - [2020-06-23 21:01:15,628] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:16,994] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,994 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:16,995] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,995 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2806.5208938121796
+[2020-06-23 21:01:16,995] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,995 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:16,998] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,998 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2806.5238592624664
+[2020-06-23 21:01:16,998] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,998 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:16,999] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,999 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:16,999] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,999 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2806.5252301692963
+[2020-06-23 21:01:16,999] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:16,999 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:17,009] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:17,009 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2806.5349459648132
+[2020-06-23 21:01:17,010] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:17,010 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:17,011] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:17,017] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:17,092] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.472 seconds
+[2020-06-23 21:01:19,616] {scheduler_job.py:154} INFO - Started process (PID=25962) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:19,629] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:19,630] {logging_mixin.py:112} INFO - [2020-06-23 21:01:19,630] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:20,489] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,489 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:20,489] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,489 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2810.0154168605804
+[2020-06-23 21:01:20,490] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,490 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:20,492] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,492 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2810.018185853958
+[2020-06-23 21:01:20,492] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,492 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:20,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,493 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:20,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,493 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2810.0193886756897
+[2020-06-23 21:01:20,494] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,494 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:20,496] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,496 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2810.0219106674194
+[2020-06-23 21:01:20,496] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:20,496 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:20,496] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:20,500] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:20,547] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.931 seconds
+[2020-06-23 21:01:23,581] {scheduler_job.py:154} INFO - Started process (PID=25965) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:23,591] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:23,591] {logging_mixin.py:112} INFO - [2020-06-23 21:01:23,591] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:24,489] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,489 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:24,489] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,489 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2814.0153527259827
+[2020-06-23 21:01:24,490] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,489 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:24,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,493 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2814.0190901756287
+[2020-06-23 21:01:24,493] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,493 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:24,494] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,494 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:24,494] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,494 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2814.0203189849854
+[2020-06-23 21:01:24,494] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,494 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:24,497] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,496 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2814.0224692821503
+[2020-06-23 21:01:24,497] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:24,497 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:24,497] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:24,501] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:24,557] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.976 seconds
+[2020-06-23 21:01:27,647] {scheduler_job.py:154} INFO - Started process (PID=25970) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:27,679] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:27,680] {logging_mixin.py:112} INFO - [2020-06-23 21:01:27,680] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:28,592] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,592 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:28,592] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,592 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2818.1183478832245
+[2020-06-23 21:01:28,592] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,592 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:28,595] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,595 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2818.1206464767456
+[2020-06-23 21:01:28,595] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,595 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:28,595] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,595 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:28,596] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,596 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2818.121710062027
+[2020-06-23 21:01:28,596] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,596 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:28,598] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,597 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2818.1234941482544
+[2020-06-23 21:01:28,598] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:28,598 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:28,598] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:28,603] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:28,646] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.000 seconds
+[2020-06-23 21:01:31,653] {scheduler_job.py:154} INFO - Started process (PID=25972) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:31,676] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:31,677] {logging_mixin.py:112} INFO - [2020-06-23 21:01:31,677] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:32,594] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,594 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:32,595] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,595 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2822.1212565898895
+[2020-06-23 21:01:32,596] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,596 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:32,603] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,603 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2822.1288220882416
+[2020-06-23 21:01:32,604] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,604 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:32,605] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,605 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:32,606] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,606 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2822.1321272850037
+[2020-06-23 21:01:32,607] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,606 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:32,611] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,610 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2822.136428117752
+[2020-06-23 21:01:32,611] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:32,611 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:32,611] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:32,617] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:32,694] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.041 seconds
+[2020-06-23 21:01:35,688] {scheduler_job.py:154} INFO - Started process (PID=25974) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:35,695] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:35,695] {logging_mixin.py:112} INFO - [2020-06-23 21:01:35,695] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:36,606] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,606 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:36,607] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,607 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2826.1330127716064
+[2020-06-23 21:01:36,607] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,607 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:36,610] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,610 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2826.1362688541412
+[2020-06-23 21:01:36,610] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,610 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:36,611] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,611 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:36,612] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,612 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2826.1380620002747
+[2020-06-23 21:01:36,612] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,612 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:36,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2826.146576166153
+[2020-06-23 21:01:36,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:36,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:36,621] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:36,623] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:36,711] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.023 seconds
+[2020-06-23 21:01:39,708] {scheduler_job.py:154} INFO - Started process (PID=25976) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:39,725] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:39,726] {logging_mixin.py:112} INFO - [2020-06-23 21:01:39,726] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:40,609] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,609 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:40,610] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,610 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2830.136125087738
+[2020-06-23 21:01:40,610] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,610 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:40,615] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,614 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2830.1403489112854
+[2020-06-23 21:01:40,615] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,615 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:40,617] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,617 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:40,618] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,618 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2830.1443462371826
+[2020-06-23 21:01:40,619] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,619 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:40,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2830.147219657898
+[2020-06-23 21:01:40,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:40,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:40,622] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:40,625] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:40,676] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.968 seconds
+[2020-06-23 21:01:43,695] {scheduler_job.py:154} INFO - Started process (PID=25978) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:43,720] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:43,722] {logging_mixin.py:112} INFO - [2020-06-23 21:01:43,721] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:44,674] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,673 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:44,674] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,674 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2834.200325489044
+[2020-06-23 21:01:44,675] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,675 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:44,678] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,678 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2834.2035224437714
+[2020-06-23 21:01:44,678] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,678 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:44,678] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,678 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:44,679] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,679 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2834.205068588257
+[2020-06-23 21:01:44,679] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,679 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:44,684] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,684 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2834.2097070217133
+[2020-06-23 21:01:44,684] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:44,684 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:44,684] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:44,687] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:44,735] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.041 seconds
+[2020-06-23 21:01:47,806] {scheduler_job.py:154} INFO - Started process (PID=25980) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:47,820] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:47,821] {logging_mixin.py:112} INFO - [2020-06-23 21:01:47,821] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:49,016] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,016 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:49,017] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,017 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2838.5425283908844
+[2020-06-23 21:01:49,017] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,017 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:49,019] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,019 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2838.545378446579
+[2020-06-23 21:01:49,020] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,020 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:49,020] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,020 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:49,021] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,021 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2838.546631336212
+[2020-06-23 21:01:49,021] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,021 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:49,023] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,023 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2838.5490024089813
+[2020-06-23 21:01:49,023] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:49,023 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:49,023] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:49,026] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:49,088] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.282 seconds
+[2020-06-23 21:01:51,699] {scheduler_job.py:154} INFO - Started process (PID=25982) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:51,718] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:51,720] {logging_mixin.py:112} INFO - [2020-06-23 21:01:51,720] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:52,625] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,624 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:52,625] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,625 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2842.151107788086
+[2020-06-23 21:01:52,625] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,625 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:52,629] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,629 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2842.1548759937286
+[2020-06-23 21:01:52,629] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,629 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:52,631] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,631 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:52,631] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,631 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2842.157444000244
+[2020-06-23 21:01:52,632] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,632 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:52,634] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,634 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2842.1599776744843
+[2020-06-23 21:01:52,634] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:52,634 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:52,634] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:52,638] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:52,686] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 0.987 seconds
+[2020-06-23 21:01:55,718] {scheduler_job.py:154} INFO - Started process (PID=25984) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:55,736] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:55,737] {logging_mixin.py:112} INFO - [2020-06-23 21:01:55,737] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:56,691] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,691 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:56,692] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,692 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2846.2178094387054
+[2020-06-23 21:01:56,692] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,692 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:56,698] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,697 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2846.223456144333
+[2020-06-23 21:01:56,698] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,698 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:56,698] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,698 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:01:56,699] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,699 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2846.2248549461365
+[2020-06-23 21:01:56,699] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,699 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:56,702] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,702 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2846.227705001831
+[2020-06-23 21:01:56,702] {logging_mixin.py:112} WARNING - [2020-06-23 21:01:56,702 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:01:56,702] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:01:56,706] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:56,758] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.040 seconds
+[2020-06-23 21:01:59,682] {scheduler_job.py:154} INFO - Started process (PID=25990) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:01:59,690] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:01:59,691] {logging_mixin.py:112} INFO - [2020-06-23 21:01:59,691] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:00,589] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,588 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:00,590] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,590 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2850.115805864334
+[2020-06-23 21:02:00,590] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,590 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:00,599] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,599 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2850.1248865127563
+[2020-06-23 21:02:00,599] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,599 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:00,600] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,600 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:00,600] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,600 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2850.1264204978943
+[2020-06-23 21:02:00,601] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,601 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:00,603] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,603 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2850.129195690155
+[2020-06-23 21:02:00,603] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:00,603 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:00,604] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:00,606] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:00,756] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.074 seconds
+[2020-06-23 21:02:03,673] {scheduler_job.py:154} INFO - Started process (PID=25992) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:03,694] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:03,698] {logging_mixin.py:112} INFO - [2020-06-23 21:02:03,697] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:04,604] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,604 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:04,605] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,605 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2854.1310415267944
+[2020-06-23 21:02:04,605] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,605 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:04,609] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,609 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2854.1349539756775
+[2020-06-23 21:02:04,610] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,609 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:04,611] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,611 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:04,613] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,613 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2854.1389787197113
+[2020-06-23 21:02:04,613] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,613 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:04,616] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,616 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2854.1421298980713
+[2020-06-23 21:02:04,616] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:04,616 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:04,617] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:04,619] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:04,677] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.004 seconds
+[2020-06-23 21:02:07,720] {scheduler_job.py:154} INFO - Started process (PID=25994) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:07,737] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:07,738] {logging_mixin.py:112} INFO - [2020-06-23 21:02:07,738] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:08,663] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,662 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:08,663] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,663 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2858.189276456833
+[2020-06-23 21:02:08,664] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,663 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:08,667] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,667 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2858.192761659622
+[2020-06-23 21:02:08,667] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,667 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:08,668] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,668 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:08,668] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,668 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2858.1942377090454
+[2020-06-23 21:02:08,668] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,668 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:08,671] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,671 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2858.1969652175903
+[2020-06-23 21:02:08,671] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:08,671 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:08,671] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:08,675] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:08,725] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.005 seconds
+[2020-06-23 21:02:11,712] {scheduler_job.py:154} INFO - Started process (PID=25996) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:11,719] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:11,719] {logging_mixin.py:112} INFO - [2020-06-23 21:02:11,719] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:12,697] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,697 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:12,698] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,698 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2862.223972082138
+[2020-06-23 21:02:12,698] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,698 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:12,701] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,701 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2862.227025747299
+[2020-06-23 21:02:12,701] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,701 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:12,702] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,702 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:12,703] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,702 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2862.228521823883
+[2020-06-23 21:02:12,703] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,703 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:12,705] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,705 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2862.2313573360443
+[2020-06-23 21:02:12,706] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:12,706 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:12,706] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:12,712] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:12,755] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.044 seconds
+[2020-06-23 21:02:15,758] {scheduler_job.py:154} INFO - Started process (PID=25998) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:15,776] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:15,784] {logging_mixin.py:112} INFO - [2020-06-23 21:02:15,783] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:16,845] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,845 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:16,846] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,846 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2866.371913909912
+[2020-06-23 21:02:16,846] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,846 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:16,849] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,849 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2866.375091075897
+[2020-06-23 21:02:16,849] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,849 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:16,850] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,850 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:16,851] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,850 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2866.3764939308167
+[2020-06-23 21:02:16,851] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,851 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:16,853] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,853 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2866.3788406848907
+[2020-06-23 21:02:16,853] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:16,853 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:16,853] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:16,857] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:16,913] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.156 seconds
+[2020-06-23 21:02:19,686] {scheduler_job.py:154} INFO - Started process (PID=26000) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:19,696] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:19,696] {logging_mixin.py:112} INFO - [2020-06-23 21:02:19,696] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:20,620] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,620 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:20,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2870.1466913223267
+[2020-06-23 21:02:20,621] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,621 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:20,632] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,632 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2870.157320022583
+[2020-06-23 21:02:20,632] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,632 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:20,633] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,633 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:20,633] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,633 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2870.1594371795654
+[2020-06-23 21:02:20,634] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,634 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:20,732] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,731 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2870.2574372291565
+[2020-06-23 21:02:20,732] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:20,732 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:20,732] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:20,735] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:20,820] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.133 seconds
+[2020-06-23 21:02:23,690] {scheduler_job.py:154} INFO - Started process (PID=26012) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:23,699] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:23,700] {logging_mixin.py:112} INFO - [2020-06-23 21:02:23,700] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:25,011] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:25,010 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:25,012] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:25,012 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2874.537614107132
+[2020-06-23 21:02:25,012] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:25,012 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:25,014] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:25,014 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2874.5403940677643
+[2020-06-23 21:02:25,015] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:25,015 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:25,015] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:25,017] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:25,070] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.380 seconds
+[2020-06-23 21:02:27,706] {scheduler_job.py:154} INFO - Started process (PID=26014) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:27,718] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:27,719] {logging_mixin.py:112} INFO - [2020-06-23 21:02:27,719] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:28,685] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:28,685 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:28,686] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:28,686 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2878.2119295597076
+[2020-06-23 21:02:28,687] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:28,687 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:28,692] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:28,692 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2878.2179226875305
+[2020-06-23 21:02:28,692] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:28,692 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:28,692] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:28,696] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:28,746] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.040 seconds
+[2020-06-23 21:02:31,687] {scheduler_job.py:154} INFO - Started process (PID=26020) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:31,696] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:31,697] {logging_mixin.py:112} INFO - [2020-06-23 21:02:31,697] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:32,648] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:32,648 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:32,649] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:32,649 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2882.174875020981
+[2020-06-23 21:02:32,649] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:32,649 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:32,652] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:32,652 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2882.1777703762054
+[2020-06-23 21:02:32,652] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:32,652 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:32,653] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:32,659] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:32,711] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.024 seconds
+[2020-06-23 21:02:35,749] {scheduler_job.py:154} INFO - Started process (PID=26022) to work on /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:35,766] {scheduler_job.py:1562} INFO - Processing file /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py for tasks to queue
+[2020-06-23 21:02:35,767] {logging_mixin.py:112} INFO - [2020-06-23 21:02:35,767] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:36,681] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:36,681 DEBUG] [yahoo_oauth.yahoo_oauth.__init__] Checking
+[2020-06-23 21:02:36,682] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:36,682 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2886.2076194286346
+[2020-06-23 21:02:36,682] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:36,682 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:36,689] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:36,688 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] ELAPSED TIME : 2886.2137179374695
+[2020-06-23 21:02:36,690] {logging_mixin.py:112} WARNING - [2020-06-23 21:02:36,690 DEBUG] [yahoo_oauth.yahoo_oauth.token_is_valid] TOKEN IS STILL VALID
+[2020-06-23 21:02:36,690] {logging_mixin.py:112} INFO - running...
+[2020-06-23 21:02:36,694] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['fffl_update']) retrieved from /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py
+[2020-06-23 21:02:36,751] {scheduler_job.py:162} INFO - Processing /mnt/c/Users/Chris/Documents/Fantasy/fffl/dags/fffl_dags.py took 1.002 seconds
