@@ -4,6 +4,7 @@ import pandas as pd
 import json
 from auth import yahoo_auth
 import os
+import sys
 
 
 def login():
@@ -158,14 +159,62 @@ def parse_scores(year, week):
     return scores
 
 
-if __name__ == "__main__":
-    # for year in range(2005, 2020):
-    #     updateScoreboards(year)
+def get_roster(owner, year, week):
 
-    # updateScoreboards(2019)
+    login()
+    team_id = get_team_id(year, owner)
+    # if not os.path.exists("./data/rosters/"):
+    #     os.makedirs("./data/rosters/")
+
+    print(f"\n{owner} - {year}, Week {week}")
+    url = (
+        "https://fantasysports.yahooapis.com/fantasy/v2/team/"
+        + team_id
+        + "/roster;week="
+        + str(week)
+    )
+    response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
+    r = response.json()
+
+    player_list = r['fantasy_content']['team'][1]['roster']['0']['players']
+    for i in range(player_list['count']):
+        player = player_list[str(i)]['player'][0][2]['name']['full']
+        position = player_list[str(
+            i)]['player'][1]['selected_position'][1]['position']
+        print(position + ' - ' + player)
+
+    # print(r)
+
+
+def get_team_id(year, owner):
+    with open('./data/owner_info/team_mapping.json', 'r') as r:
+        team_map = json.load(r)
+
+    try:
+        yearly_ids = team_map[str(year)]
+    except:
+        print("Year not found")
+        os._exit(1)
+
+    try:
+        team_id = list(yearly_ids.keys())[
+            list(yearly_ids.values()).index(owner)]
+        return team_id
+    except:
+        print("Owner not found")
+        os._exit(1)
+
+
+if __name__ == "__main__":
+
+    owner = 'Sarge'
+    year = 2019
+    week = 6
+
+    get_roster(owner, year, week)
 
     df = pd.DataFrame(
-        parse_scores(2019, 13),
+        parse_scores(year, week),
         columns=[
             "matchup_id",
             "year",
