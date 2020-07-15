@@ -176,18 +176,64 @@ def get_roster(owner, year, week):
     response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
     r = response.json()
 
-    player_list = r['fantasy_content']['team'][1]['roster']['0']['players']
-    for i in range(player_list['count']):
-        player = player_list[str(i)]['player'][0][2]['name']['full']
-        position = player_list[str(
-            i)]['player'][1]['selected_position'][1]['position']
-        print(position + ' - ' + player)
+    player_list = r["fantasy_content"]["team"][1]["roster"]["0"]["players"]
+    for i in range(player_list["count"]):
+        player = player_list[str(i)]["player"][0][2]["name"]["full"]
+        position = player_list[str(i)]["player"][1]["selected_position"][1]["position"]
+        print(position + " - " + player)
 
     # print(r)
 
 
+def get_scoring_settings(year):
+
+    login()
+
+    with open("./data/league_info/league_id_mapping.json", "r") as m:
+        league_id_mapping = eval(m.read())
+
+    league_id = league_id_mapping[str(year)]["league_id"]
+    game_id = league_id_mapping[str(year)]["game_id"]
+
+    # print(f"\n{owner} - {year}, Week {week}")
+    # https://fantasysports.yahooapis.com/fantasy/v2/league/223.l.431/settings
+    url = (
+        "https://fantasysports.yahooapis.com/fantasy/v2/league/"
+        + str(game_id)
+        + ".l."
+        + str(league_id)
+        + "/settings"
+    )
+    response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
+    r = response.json()
+
+    stat_names = r["fantasy_content"]["league"][1]["settings"][0]["stat_categories"][
+        "stats"
+    ]
+    stat_categories = {}
+    for stat in stat_names:
+        stat_id = stat["stat"]["stat_id"]
+        stat_name = stat["stat"]["display_name"]
+        stat_categories[stat_id] = stat_name
+
+    stats = r["fantasy_content"]["league"][1]["settings"][0]["stat_modifiers"]["stats"]
+
+    stat_list = []
+    for stat in stats:
+        stat_id = stat["stat"]["stat_id"]
+        value = float(stat["stat"]["value"])
+        id = int(str(year) + str(stat_id).zfill(2))
+        stat_name = stat_categories[stat_id]
+
+        stat_list.append((id, year, stat_id, stat_name, value))
+        # print(str(stat_id) + ": " + str(value))
+
+    # print(stat_list)
+    return stat_list
+
+
 def get_team_id(year, owner):
-    with open('./data/owner_info/team_mapping.json', 'r') as r:
+    with open("./data/owner_info/team_mapping.json", "r") as r:
         team_map = json.load(r)
 
     try:
@@ -197,8 +243,7 @@ def get_team_id(year, owner):
         os._exit(1)
 
     try:
-        team_id = list(yearly_ids.keys())[
-            list(yearly_ids.values()).index(owner)]
+        team_id = list(yearly_ids.keys())[list(yearly_ids.values()).index(owner)]
         return team_id
     except:
         print("Owner not found")
@@ -207,22 +252,25 @@ def get_team_id(year, owner):
 
 if __name__ == "__main__":
 
-    owner = 'Sarge'
-    year = 2019
+    owner = "Sarge"
+    year = 2015
     week = 6
 
-    get_roster(owner, year, week)
+    # print(parse_scores(year, week))
+    get_scoring_settings(year)
 
-    df = pd.DataFrame(
-        parse_scores(year, week),
-        columns=[
-            "matchup_id",
-            "year",
-            "week",
-            "team",
-            "pts_for",
-            "opponent",
-            "pts_against",
-        ],
-    )
-    print(df)
+    # get_roster(owner, year, week)
+
+    # df = pd.DataFrame(
+    #     parse_scores(year, week),
+    #     columns=[
+    #         "matchup_id",
+    #         "year",
+    #         "week",
+    #         "team",
+    #         "pts_for",
+    #         "opponent",
+    #         "pts_against",
+    #     ],
+    # )
+    # print(df)
