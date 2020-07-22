@@ -53,7 +53,7 @@ def findGameID(year):
 
 def updateScoreboards(year):
 
-    login()
+    # login()
 
     if not os.path.exists("./data/weekly_scoreboards/" + str(year)):
         os.makedirs("./data/weekly_scoreboards/" + str(year))
@@ -91,7 +91,7 @@ def updateScoreboards(year):
 
 def parse_scores(year, week):
 
-    login()
+    # login()
 
     # load team number and names references as a dictionary
     team_numbers = {}
@@ -161,12 +161,18 @@ def parse_scores(year, week):
 
 def get_roster(owner, year, week):
 
-    login()
+    # login()
     team_id = get_team_id(year, owner)
+
+    with open("./data/league_info/league_id_mapping.json", "r") as m:
+        league_id_mapping = eval(m.read())
+
+    league_id = league_id_mapping[str(year)]["league_id"]
+    game_id = league_id_mapping[str(year)]["game_id"]
     # if not os.path.exists("./data/rosters/"):
     #     os.makedirs("./data/rosters/")
 
-    print(f"\n{owner} - {year}, Week {week}")
+    print(f"{owner} - {year}, Week {week}")
     url = (
         "https://fantasysports.yahooapis.com/fantasy/v2/team/"
         + team_id
@@ -177,12 +183,68 @@ def get_roster(owner, year, week):
     r = response.json()
 
     player_list = r["fantasy_content"]["team"][1]["roster"]["0"]["players"]
-    for i in range(player_list["count"]):
-        player = player_list[str(i)]["player"][0][2]["name"]["full"]
-        position = player_list[str(i)]["player"][1]["selected_position"][1]["position"]
-        print(position + " - " + player)
+    roster = []
 
-    # print(r)
+    for i in range(player_list["count"]):
+        name = player_list[str(i)]["player"][0][2]["name"]["full"]
+        selected_position = player_list[str(i)]["player"][1]["selected_position"][1][
+            "position"
+        ]
+        try:
+            player_position = player_list[str(i)]["player"][0][13]["primary_position"]
+        except KeyError:
+            player_position = player_list[str(i)]["player"][0][14]["primary_position"]
+
+        player_key = player_list[str(i)]["player"][0][0]["player_key"]
+        player_id = player_list[str(i)]["player"][0][1]["player_id"]
+
+        points = {}
+        for variable in [
+            "owner",
+            "week",
+            "year",
+            "name",
+            "selected_position",
+            "player_position",
+            "player_key",
+            "player_id",
+        ]:
+            points[variable] = eval(variable)
+
+        roster.append(points)
+
+    roster = pd.DataFrame(roster)
+    player_key_list = ", ".join(roster.player_key.tolist())
+    # player_key_list = player_key_list[:-2]
+    # print(player_key_list)
+
+    stats_url = (
+        "https://fantasysports.yahooapis.com/fantasy/v2/league/"
+        + str(game_id)
+        + ".l."
+        + str(league_id)
+        + "/players;player_keys="
+        # + str(player_key)
+        + player_key_list
+        + "/stats;type=week;week="
+        + str(week)
+    )
+
+    stats_response = yahoo_auth.oauth.session.get(stats_url, params={"format": "json"})
+    stats_r = stats_response.json()
+
+    # print(stats_r)
+
+    player_scores = stats_r["fantasy_content"]["league"][1]["players"]
+
+    for player in range(player_scores["count"]):
+        player_points = player_scores[str(player)]["player"][1]["player_points"][
+            "total"
+        ]
+        player_key = player_scores[str(player)]["player"][0][0]["player_key"]
+        roster.loc[player, "points"] = player_points
+
+    return roster
 
 
 def get_scoring_settings(year):
@@ -195,8 +257,6 @@ def get_scoring_settings(year):
     league_id = league_id_mapping[str(year)]["league_id"]
     game_id = league_id_mapping[str(year)]["game_id"]
 
-    # print(f"\n{owner} - {year}, Week {week}")
-    # https://fantasysports.yahooapis.com/fantasy/v2/league/223.l.431/settings
     url = (
         "https://fantasysports.yahooapis.com/fantasy/v2/league/"
         + str(game_id)
@@ -252,15 +312,40 @@ def get_team_id(year, owner):
 
 if __name__ == "__main__":
 
+    print("")
+    login()
+
     owner = "Sarge"
-    year = 2015
-    week = 6
+    year = 2019
+    week = 1
 
+    # print(get_team_id(year, owner))
     # print(parse_scores(year, week))
-    get_scoring_settings(year)
+    # get_scoring_settings(year)
 
-    # get_roster(owner, year, week)
+    owners = [
+        "Sarge",
+        "Lude",
+        "Gresh",
+        "Ceej",
+        "Ost",
+        "Schingen",
+        "Winks",
+        "Faber",
+        "Frank",
+        "Benny",
+        "Strand",
+        "Rades",
+    ]
+    roster = pd.DataFrame()
+    for year in range(2005, 2020):
+        for owner in owners:
+            for week in range(1, 17):
+                roster = roster.append(get_roster(owner, year, week))
 
+    roster.reset_index(inplace=True)
+    # print(roster.head(20))
+    roster.to_csv("weekly_player_stats.csv")
     # df = pd.DataFrame(
     #     parse_scores(year, week),
     #     columns=[
