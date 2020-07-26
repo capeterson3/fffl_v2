@@ -169,8 +169,13 @@ def get_roster(owner, year, week):
 
     league_id = league_id_mapping[str(year)]["league_id"]
     game_id = league_id_mapping[str(year)]["game_id"]
-    # if not os.path.exists("./data/rosters/"):
-    #     os.makedirs("./data/rosters/")
+
+    # if week_end == "":
+    #     week_list = week_start
+    # else:
+    #     week_list = ", ".join(
+    #         str(elem) for elem in list(range(week_start, week_end + 1))
+    #     )
 
     print(f"{owner} - {year}, Week {week}")
     url = (
@@ -215,8 +220,6 @@ def get_roster(owner, year, week):
 
     roster = pd.DataFrame(roster)
     player_key_list = ", ".join(roster.player_key.tolist())
-    # player_key_list = player_key_list[:-2]
-    # print(player_key_list)
 
     stats_url = (
         "https://fantasysports.yahooapis.com/fantasy/v2/league/"
@@ -244,6 +247,12 @@ def get_roster(owner, year, week):
         player_key = player_scores[str(player)]["player"][0][0]["player_key"]
         roster.loc[player, "points"] = player_points
 
+    roster["id"] = (
+        roster["year"].apply(lambda x: str(x))
+        + roster["week"].apply(lambda x: str(x).zfill(2))
+        + roster["player_id"].apply(lambda x: str(x).zfill(7))
+    )
+    roster["id"] = roster["id"].astype(int)
     return roster
 
 
@@ -310,6 +319,8 @@ def get_team_id(year, owner):
         os._exit(1)
 
 
+login()
+
 if __name__ == "__main__":
 
     print("")
@@ -318,6 +329,10 @@ if __name__ == "__main__":
     owner = "Sarge"
     year = 2019
     week = 1
+    week_start = 1
+    week_end = 16
+
+    print(get_roster(owner, year, week_start, week_end))
 
     # print(get_team_id(year, owner))
     # print(parse_scores(year, week))
@@ -346,6 +361,7 @@ if __name__ == "__main__":
     roster.reset_index(inplace=True)
     # print(roster.head(20))
     roster.to_csv("weekly_player_stats.csv")
+
     # df = pd.DataFrame(
     #     parse_scores(year, week),
     #     columns=[

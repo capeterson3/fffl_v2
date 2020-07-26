@@ -19,3 +19,15 @@ scoring_settings = """CREATE TABLE scoring_settings
           STAT_ID INT   NOT NULL,
           NAME TEXT     NOT NULL,
           VALUE FLOAT8 NOT NULL); """
+
+player_scores = """CREATE TABLE player_scores
+          (ID BIGINT PRIMARY KEY NOT NULL,
+          OWNER TEXT    NOT NULL,
+          WEEK INT      NOT NULL,
+          YEAR INT      NOT NULL,
+          NAME TEXT     NOT NULL,
+          SELECTED_POSITION TEXT NOT NULL,
+          PLAYER_POSITION TEXT   NOT NULL,
+          PLAYER_KEY TEXT   NOT NULL,
+          PLAYER_ID INT NOT NULL,
+          POINTS FLOAT8 NOT NULL); """
