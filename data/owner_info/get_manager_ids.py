@@ -72,6 +72,6 @@ def update_team_mapping(year):
 
 
 if __name__ == '__main__':
-    # print(get_manager_ids(2019))
-    for year in range(2006, 2020):
-        update_team_mapping(year)
+    print(get_manager_ids(2009))
+    # for year in range(2006, 2020):
+    #     update_team_mapping(year)

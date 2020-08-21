@@ -327,40 +327,41 @@ if __name__ == "__main__":
     login()
 
     owner = "Sarge"
-    year = 2019
+    year = 2009
     week = 1
     week_start = 1
     week_end = 16
 
-    print(get_roster(owner, year, week_start, week_end))
+    print(parse_scores(year, week))
+    # print(get_roster(owner, year, week_start, week_end))
 
     # print(get_team_id(year, owner))
     # print(parse_scores(year, week))
     # get_scoring_settings(year)
 
-    owners = [
-        "Sarge",
-        "Lude",
-        "Gresh",
-        "Ceej",
-        "Ost",
-        "Schingen",
-        "Winks",
-        "Faber",
-        "Frank",
-        "Benny",
-        "Strand",
-        "Rades",
-    ]
-    roster = pd.DataFrame()
-    for year in range(2005, 2020):
-        for owner in owners:
-            for week in range(1, 17):
-                roster = roster.append(get_roster(owner, year, week))
+    # owners = [
+    #     "Sarge",
+    #     "Lude",
+    #     "Gresh",
+    #     "Ceej",
+    #     "Ost",
+    #     "Schingen",
+    #     "Winks",
+    #     "Faber",
+    #     "Frank",
+    #     "Benny",
+    #     "Strand",
+    #     "Rades",
+    # ]
+    # roster = pd.DataFrame()
+    # for year in range(2005, 2020):
+    #     for owner in owners:
+    #         for week in range(1, 17):
+    #             roster = roster.append(get_roster(owner, year, week))
 
-    roster.reset_index(inplace=True)
-    # print(roster.head(20))
-    roster.to_csv("weekly_player_stats.csv")
+    # roster.reset_index(inplace=True)
+    # # print(roster.head(20))
+    # roster.to_csv("weekly_player_stats.csv")
 
     # df = pd.DataFrame(
     #     parse_scores(year, week),
