@@ -1,4 +1,4 @@
-scores = """CREATE TABLE scores
+weekly_scores = """CREATE TABLE weekly_scores
           (ID INT PRIMARY KEY NOT NULL,
           YEAR INT      NOT NULL,
           WEEK INT    NOT NULL,
@@ -31,3 +31,18 @@ player_scores = """CREATE TABLE player_scores
           PLAYER_KEY TEXT   NOT NULL,
           PLAYER_ID INT NOT NULL,
           POINTS FLOAT8 NOT NULL); """
+
+standings = """CREATE TABLE standings
+          (YEAR INT NOT NULL,
+          OWNER TEXT   NOT NULL,
+          NUMBER_OF_MOVES INT    NOT NULL,
+          NUMBER_OF_TRADES INT    NOT NULL,
+          CLINCHED_PLAYOFFS INT    NOT NULL,
+          FINISH INT    NOT NULL,
+          PLAYOFF_SEED INT    NULL,
+          WINS INT    NOT NULL,
+          LOSSES INT    NOT NULL,
+          TIES INT    NOT NULL,
+          PTS_FOR FLOAT8 NOT NULL,
+          PTS_AGAINST FLOAT8 NOT NULL,
+          PRIMARY KEY (YEAR, OWNER)); """

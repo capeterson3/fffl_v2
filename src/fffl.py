@@ -1,10 +1,25 @@
 import pandas as pd
 
-# from yahoo_oauth import OAuth2
+from yahoo_oauth import OAuth2
 import json
-from auth import yahoo_auth
+# from auth import yahoo_auth
 import os
 import sys
+import postgres
+
+
+class Yahoo_Api:
+    def __init__(self, consumer_key, consumer_secret, access_key):
+        self._consumer_key = consumer_key
+        self._consumer_secret = consumer_secret
+        self._access_key = access_key
+        self._authorization = None
+
+    def _login(self):
+        global oauth
+        oauth = OAuth2(None, None, from_file="./auth/oauth2yahoo.json")
+        if not oauth.token_is_valid():
+            oauth.refresh_access_token()
 
 
 def login():
@@ -15,7 +30,7 @@ def login():
     yahoo_access_key = auths["access_token"]
     json_yahoo_file.close()
 
-    yahoo_api = yahoo_auth.Yahoo_Api(
+    yahoo_api = Yahoo_Api(
         yahoo_consumer_key, yahoo_consumer_secret, yahoo_access_key
     )
     yahoo_api._login()
@@ -170,13 +185,6 @@ def get_roster(owner, year, week):
     league_id = league_id_mapping[str(year)]["league_id"]
     game_id = league_id_mapping[str(year)]["game_id"]
 
-    # if week_end == "":
-    #     week_list = week_start
-    # else:
-    #     week_list = ", ".join(
-    #         str(elem) for elem in list(range(week_start, week_end + 1))
-    #     )
-
     print(f"{owner} - {year}, Week {week}")
     url = (
         "https://fantasysports.yahooapis.com/fantasy/v2/team/"
@@ -185,6 +193,8 @@ def get_roster(owner, year, week):
         + str(week)
     )
     response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
+
+    # print(response)
     r = response.json()
 
     player_list = r["fantasy_content"]["team"][1]["roster"]["0"]["players"]
@@ -195,10 +205,19 @@ def get_roster(owner, year, week):
         selected_position = player_list[str(i)]["player"][1]["selected_position"][1][
             "position"
         ]
+
+        # print(player_list)
+
         try:
-            player_position = player_list[str(i)]["player"][0][13]["primary_position"]
+            player_position = player_list[str(
+                i)]["player"][0][13]["primary_position"]
         except KeyError:
-            player_position = player_list[str(i)]["player"][0][14]["primary_position"]
+            try:
+                player_position = player_list[str(
+                    i)]["player"][0][14]["primary_position"]
+            except KeyError:
+                player_position = player_list[str(
+                    i)]["player"][0][15]["primary_position"]
 
         player_key = player_list[str(i)]["player"][0][0]["player_key"]
         player_id = player_list[str(i)]["player"][0][1]["player_id"]
@@ -233,7 +252,8 @@ def get_roster(owner, year, week):
         + str(week)
     )
 
-    stats_response = yahoo_auth.oauth.session.get(stats_url, params={"format": "json"})
+    stats_response = yahoo_auth.oauth.session.get(
+        stats_url, params={"format": "json"})
     stats_r = stats_response.json()
 
     # print(stats_r)
@@ -312,14 +332,81 @@ def get_team_id(year, owner):
         os._exit(1)
 
     try:
-        team_id = list(yearly_ids.keys())[list(yearly_ids.values()).index(owner)]
+        team_id = list(yearly_ids.keys())[
+            list(yearly_ids.values()).index(owner)]
         return team_id
     except:
         print("Owner not found")
         os._exit(1)
 
 
-login()
+def updateStandings(year):
+
+    # load team number and names references as a dictionary
+    team_numbers = {}
+    with open("./data/owner_info/team_mapping.json", "r") as f:
+        team_numbers = json.load(f)
+
+    with open("./data/league_info/league_id_mapping.json", "r") as m:
+        league_id_mapping = eval(m.read())
+
+    league_id = league_id_mapping[str(year)]["league_id"]
+    game_id = league_id_mapping[str(year)]["game_id"]
+
+    url = 'https://fantasysports.yahooapis.com/fantasy/v2/league/' + \
+        str(game_id) + '.l.' + str(league_id) + '/standings'
+    response = oauth.session.get(url, params={'format': 'json'})
+    r = response.json()
+
+    data = r['fantasy_content']['league'][1]['standings'][0]['teams']
+
+    standings = []
+    for team in range(0, 12):
+        team_key = data[str(team)]['team'][0][0]['team_key']
+        owner = team_numbers[str(year)][team_key]
+
+        number_of_moves = data[str(team)]['team'][0][9]['number_of_moves']
+        number_of_trades = data[str(team)]['team'][0][10]['number_of_trades']
+
+        clinched_playoffs = 1 if 'clinched_playoffs' in data[str(
+            team)]['team'][0][12] else 0
+
+        finish = data[str(team)]['team'][2]['team_standings']['rank']
+        try:
+            playoff_seed = data[str(
+                team)]['team'][2]['team_standings']['playoff_seed']
+        except:
+            playoff_seed = None
+
+        wins = data[str(
+            team)]['team'][2]['team_standings']['outcome_totals']['wins']
+        losses = data[str(
+            team)]['team'][2]['team_standings']['outcome_totals']['losses']
+        ties = data[str(
+            team)]['team'][2]['team_standings']['outcome_totals']['ties']
+        pts_for = data[str(team)]['team'][2]['team_standings']['points_for']
+        pts_against = data[str(
+            team)]['team'][2]['team_standings']['points_against']
+
+        standing = (
+            year,
+            owner,
+            int(number_of_moves),
+            int(number_of_trades),
+            clinched_playoffs,
+            finish,
+            playoff_seed,
+            int(wins),
+            int(losses),
+            ties,
+            round(float(pts_for), 2),
+            round(float(pts_against), 2),
+        )
+        standings.append(standing)
+
+    # print(standings)
+    return(standings)
+
 
 if __name__ == "__main__":
 
@@ -327,52 +414,24 @@ if __name__ == "__main__":
     login()
 
     owner = "Sarge"
-    year = 2009
-    week = 1
-    week_start = 1
-    week_end = 16
+    year = 2020
+    week = 5
 
-    print(parse_scores(year, week))
-    # print(get_roster(owner, year, week_start, week_end))
+    # updateStandings(year)
+    for year in range(2005, 2020):
+        postgres.bulkInsert(updateStandings(year), 'standings',
+                            postgres.queries.standings)
 
-    # print(get_team_id(year, owner))
-    # print(parse_scores(year, week))
-    # get_scoring_settings(year)
+    # updateScoreboards(year)
+    # for owner in postgres.owners:
+    #     records = []
+    #     for week in range(1, week+1):
+    #         stats = get_roster(owner, year, week)
+    #         stats = stats.set_index("id").reset_index()
+    #         stats = list(stats.itertuples(index=False, name=None))
 
-    # owners = [
-    #     "Sarge",
-    #     "Lude",
-    #     "Gresh",
-    #     "Ceej",
-    #     "Ost",
-    #     "Schingen",
-    #     "Winks",
-    #     "Faber",
-    #     "Frank",
-    #     "Benny",
-    #     "Strand",
-    #     "Rades",
-    # ]
-    # roster = pd.DataFrame()
-    # for year in range(2005, 2020):
-    #     for owner in owners:
-    #         for week in range(1, 17):
-    #             roster = roster.append(get_roster(owner, year, week))
+    #         records.extend(stats)
 
-    # roster.reset_index(inplace=True)
-    # # print(roster.head(20))
-    # roster.to_csv("weekly_player_stats.csv")
-
-    # df = pd.DataFrame(
-    #     parse_scores(year, week),
-    #     columns=[
-    #         "matchup_id",
-    #         "year",
-    #         "week",
-    #         "team",
-    #         "pts_for",
-    #         "opponent",
-    #         "pts_against",
-    #     ],
-    # )
-    # print(df)
+    #     table = "player_scores"
+    #     postgres.bulkInsert(records, 'player_scores',
+    #                         postgres.queries.player_scores)

@@ -2,7 +2,8 @@ import json
 
 
 def get_manager_ids(year):
-    filename = "./data/weekly_scoreboards/" + str(year) + "/week_1_scoreboard.json"
+    filename = "./data/weekly_scoreboards/" + \
+        str(year) + "/week_1_scoreboard.json"
     with open(filename) as json_file:
         data = json.load(json_file)
 
@@ -72,6 +73,7 @@ def update_team_mapping(year):
 
 
 if __name__ == '__main__':
-    print(get_manager_ids(2009))
+
     # for year in range(2006, 2020):
-    #     update_team_mapping(year)
+
+    update_team_mapping(2020)
