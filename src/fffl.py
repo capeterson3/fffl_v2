@@ -6,6 +6,7 @@ import json
 import os
 import sys
 import postgres
+import postgres_insert_queries as queries
 
 
 class Yahoo_Api:
@@ -68,7 +69,7 @@ def findGameID(year):
 
 def updateScoreboards(year):
 
-    # login()
+    login()
 
     if not os.path.exists("./data/weekly_scoreboards/" + str(year)):
         os.makedirs("./data/weekly_scoreboards/" + str(year))
@@ -90,7 +91,7 @@ def updateScoreboards(year):
             + "/scoreboard;week="
             + str(week)
         )
-        response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
+        response = oauth.session.get(url, params={"format": "json"})
         r = response.json()
         file_name = "week_" + str(week) + "_scoreboard.json"
 
@@ -408,19 +409,27 @@ def updateStandings(year):
     return(standings)
 
 
+def weekly_update(year, week):
+
+    postgres.bulkInsert(parse_scores(year, week),
+                        'weekly_scores', queries.weekly_scores)
+
+    postgres.bulkInsert(updateStandings(year), 'standings',
+                        postgres.queries.standings)
+
+
 if __name__ == "__main__":
 
-    print("")
     login()
 
     owner = "Sarge"
     year = 2020
-    week = 5
+    week = 6
 
-    # updateStandings(year)
-    for year in range(2005, 2020):
-        postgres.bulkInsert(updateStandings(year), 'standings',
-                            postgres.queries.standings)
+    updateScoreboards(year)
+
+    for week in range(1, week + 1):
+        weekly_update(year, week)
 
     # updateScoreboards(year)
     # for owner in postgres.owners:
