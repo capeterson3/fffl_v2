@@ -1,4 +1,5 @@
 import pandas as pd
+import requests
 
 from yahoo_oauth import OAuth2
 import json
@@ -7,6 +8,9 @@ import os
 import sys
 import postgres
 import postgres_insert_queries as queries
+
+from bs4 import BeautifulSoup
+from requests_html import HTMLSession
 
 
 class Yahoo_Api:
@@ -67,9 +71,9 @@ def findGameID(year):
                 break
 
 
-def updateScoreboards(year):
+def updateScoreboards(year, week):
 
-    login()
+    # login()
 
     if not os.path.exists("./data/weekly_scoreboards/" + str(year)):
         os.makedirs("./data/weekly_scoreboards/" + str(year))
@@ -79,28 +83,25 @@ def updateScoreboards(year):
 
     league_id = league_id_mapping[str(year)]["league_id"]
     game_id = league_id_mapping[str(year)]["game_id"]
-    week = 1
+    # week = 1
 
-    while week < 17:  # assumes 16 week-schedule
-        print("Updating scoreboards for " + str(year) + ", week " + str(week))
-        url = (
-            "https://fantasysports.yahooapis.com/fantasy/v2/league/"
-            + str(game_id)
-            + ".l."
-            + str(league_id)
-            + "/scoreboard;week="
-            + str(week)
-        )
-        response = oauth.session.get(url, params={"format": "json"})
-        r = response.json()
-        file_name = "week_" + str(week) + "_scoreboard.json"
+    print("Updating scoreboards for " + str(year) + ", week " + str(week))
+    url = (
+        "https://fantasysports.yahooapis.com/fantasy/v2/league/"
+        + str(game_id)
+        + ".l."
+        + str(league_id)
+        + "/scoreboard;week="
+        + str(week)
+    )
+    response = oauth.session.get(url, params={"format": "json"})
+    r = response.json()
+    file_name = "week_" + str(week) + "_scoreboard.json"
 
-        with open(
-            "./data/weekly_scoreboards/" + str(year) + "/" + file_name, "w+"
-        ) as outfile:
-            json.dump(r, outfile)
-
-        week += 1
+    with open(
+        "./data/weekly_scoreboards/" + str(year) + "/" + file_name, "w+"
+    ) as outfile:
+        json.dump(r, outfile)
 
     return
 
@@ -411,11 +412,31 @@ def updateStandings(year):
 
 def weekly_update(year, week):
 
+    updateScoreboards(year, week)
+
     postgres.bulkInsert(parse_scores(year, week),
                         'weekly_scores', queries.weekly_scores)
 
     postgres.bulkInsert(updateStandings(year), 'standings',
                         postgres.queries.standings)
+
+
+def get_draft_results(year):
+    with open("./data/league_info/league_id_mapping.json", "r") as m:
+        league_id_mapping = eval(m.read())
+
+    league_id = league_id_mapping[str(year)]["league_id"]
+
+    url = 'https://football.fantasysports.yahoo.com/f1/465458/draftresults?drafttab=team'
+    session = HTMLSession()
+    r = session.get(url)
+
+    with open("./data/draft_results/2005.html", "r") as f:
+        html = eval(f.read())
+
+    soup = BeautifulSoup(html)
+
+    # picks = soup.find(id='yui_3_18_1_2_1603050282645_1234')
 
 
 if __name__ == "__main__":
@@ -426,9 +447,9 @@ if __name__ == "__main__":
     year = 2020
     week = 6
 
-    updateScoreboards(year)
+    # get_draft_results(year)
 
-    for week in range(1, week + 1):
+    for week in range(max(1, week-3), week + 1):
         weekly_update(year, week)
 
     # updateScoreboards(year)

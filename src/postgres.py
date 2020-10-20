@@ -4,12 +4,13 @@ from psycopg2 import Error
 import postgres_tables as tables
 import postgres_insert_queries as queries
 import fffl
+import os
 
-user = "postgres"
-password = "Rodgers12"
-host = "localhost"
+user = os.getenv("PG_USER")
+password = os.getenv("PG_PASS")
+host = os.getenv("PG_HOST")
 port = 5432
-database = "postgres"
+database = os.getenv("PG_DB")
 
 owners = [
     "Sarge",
@@ -92,7 +93,7 @@ def bulkInsert(records, table, insert_query):
         if connection:
             cursor.close()
             connection.close()
-            print("PostgreSQL connection is closed")
+            # print("PostgreSQL connection is closed")
 
 
 if __name__ == "__main__":
