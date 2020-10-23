@@ -194,7 +194,7 @@ def get_roster(owner, year, week):
         + "/roster;week="
         + str(week)
     )
-    response = yahoo_auth.oauth.session.get(url, params={"format": "json"})
+    response = oauth.session.get(url, params={"format": "json"})
 
     # print(response)
     r = response.json()
@@ -254,7 +254,7 @@ def get_roster(owner, year, week):
         + str(week)
     )
 
-    stats_response = yahoo_auth.oauth.session.get(
+    stats_response = oauth.session.get(
         stats_url, params={"format": "json"})
     stats_r = stats_response.json()
 
@@ -420,6 +420,17 @@ def weekly_update(year, week):
     postgres.bulkInsert(updateStandings(year), 'standings',
                         postgres.queries.standings)
 
+    records = []
+    for owner in postgres.owners:
+        stats = get_roster(owner, year, week)
+        stats = stats.set_index("id").reset_index()
+        stats = list(stats.itertuples(index=False, name=None))
+
+        records.extend(stats)
+
+    postgres.bulkInsert(records, 'player_scores',
+                        postgres.queries.player_scores)
+
 
 def get_draft_results(year):
     with open("./data/league_info/league_id_mapping.json", "r") as m:
@@ -445,7 +456,7 @@ if __name__ == "__main__":
 
     owner = "Sarge"
     year = 2020
-    week = 6
+    week = 7
 
     # get_draft_results(year)
 
