@@ -97,7 +97,7 @@ def bulkInsert(records, table, insert_query):
 
 
 if __name__ == "__main__":
-    create_table(tables.standings)
+    create_table(tables.player_scores)
     # drop_table('standings')
 
     # bulkInsert(fffl.updateStandings(2019), "standings", queries.standings)

@@ -5,3 +5,5 @@ settings.json
 env
 *.pyc
 logs
+get-pip.py
+.gitignore

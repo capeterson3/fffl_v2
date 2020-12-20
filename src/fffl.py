@@ -455,24 +455,24 @@ if __name__ == "__main__":
     login()
 
     owner = "Sarge"
-    year = 2020
-    week = 7
+    year = 2005
+    week = 15
 
-    # get_draft_results(year)
-
-    for week in range(max(1, week-3), week + 1):
+    for week in range(max(1, week-2), week + 1):
         weekly_update(year, week)
 
-    # updateScoreboards(year)
-    # for owner in postgres.owners:
-    #     records = []
-    #     for week in range(1, week+1):
-    #         stats = get_roster(owner, year, week)
-    #         stats = stats.set_index("id").reset_index()
-    #         stats = list(stats.itertuples(index=False, name=None))
+# # for year in range(2005, 2020):
+#     for owner in ['Ost', 'Sarge', 'Ceej', 'Strand', 'Faber', 'Benny']:
+#         records = []
+#         for week in range(1, 14):
+#             stats = get_roster(owner, year, week)
+#             stats = stats.set_index("id").reset_index()
+#             stats = list(stats.itertuples(index=False, name=None))
 
-    #         records.extend(stats)
+#             records.extend(stats)
 
-    #     table = "player_scores"
-    #     postgres.bulkInsert(records, 'player_scores',
-    #                         postgres.queries.player_scores)
+#         table = "player_scores"
+#         postgres.bulkInsert(records, 'player_scores',
+#                             postgres.queries.player_scores)
+
+# sudo service postgresql start
